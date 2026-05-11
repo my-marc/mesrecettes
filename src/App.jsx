@@ -77,7 +77,7 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://unsplash.com/fr/photos/pizza-tranchee-sur-table-en-bois-brun-pvTgyioFSTY?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1628191011227-522c7c1a765b?w=600&q=80",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
@@ -245,7 +245,7 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://unsplash.com/fr/photos/un-groupe-dobjets-blancs-et-bruns-hbpQoTORhQg?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
@@ -266,7 +266,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://unsplash.com/fr/photos/aliments-cuits-sur-une-casserole-noire-lJLXlh7KT38?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=600&q=80",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
@@ -289,7 +289,7 @@ const dishes = [
     name: "Quiche lorraine",
     subtitle: "Lardons • Comté • Crème fraîche",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "580 kcal",
-    image: "https://unsplash.com/fr/photos/aliments-cuits-sur-une-casserole-noire-lJLXlh7KT38?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1568051243858-533a607809a5?w=600&q=80",
     tags: ["Tarte", "Français", "Classique"],
     ingredients: [
       { item: "Pâte brisée", qty: "½ rouleau" }, { item: "Lardons", qty: "65 g" },
