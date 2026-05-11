@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 const dishes = [
   {
     id: 1,
-    name: "Saumon crousti-sésame au miel & gingembre",
+    name: "Saumon glacé miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
     image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
@@ -577,7 +577,19 @@ export default function App() {
             <button style={{ ...S.addToCartBtn, width: "100%", marginBottom: 28, borderRadius: 12, borderTop: `1px solid ${C.border}`, ...(cart.includes(selected.id) ? S.addToCartBtnActive : {}) }} onClick={() => toggleCart(selected)}>
               {cart.includes(selected.id) ? "✓ Dans le panier — Retirer" : "+ Ajouter au panier"}
             </button>
-            <h2 style={S.sectionTitle}>Étapes de la recette</h2>
+
+            {/* INGREDIENTS SECTION */}
+            <h2 style={S.sectionTitle}>Ingrédients · {selected.servings} personnes</h2>
+            <div style={S.ingredientGrid}>
+              {selected.ingredients.map((ing, i) => (
+                <div key={i} style={S.ingredientChip}>
+                  <span style={S.ingredientChipQty}>{ing.qty}</span>
+                  <span style={S.ingredientChipName}>{ing.item}</span>
+                </div>
+              ))}
+            </div>
+
+            <h2 style={{ ...S.sectionTitle, marginTop: 28 }}>Étapes de la recette</h2>
             <div style={S.progressBar}>
               {selected.steps.map((_, i) => (
                 <button key={i} style={{ ...S.progressDot, ...(i <= activeStep ? S.progressDotActive : {}) }} onClick={() => setActiveStep(i)}>{i + 1}</button>
@@ -761,7 +773,10 @@ const S = {
   progressPill: { height: 6, background: C.border, borderRadius: 10, overflow: "hidden", marginBottom: 6 },
   progressFill: { height: "100%", background: C.green, borderRadius: 10, transition: "width 0.3s" },
   progressLabel: { fontSize: 12, color: C.muted },
-  ingredientList: { display: "flex", flexDirection: "column", gap: 2 },
+  ingredientGrid: { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8, marginBottom: 8 },
+  ingredientChip: { display: "flex", flexDirection: "column", background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: "10px 14px", gap: 2 },
+  ingredientChipQty: { fontSize: 13, fontWeight: "bold", color: C.accent },
+  ingredientChipName: { fontSize: 13, color: C.text },
   ingredientRow: { display: "flex", alignItems: "center", gap: 14, padding: "14px 16px", borderRadius: 12, background: C.card, border: `1px solid ${C.border}`, cursor: "pointer", textAlign: "left", transition: "opacity 0.2s" },
   ingredientChecked: { opacity: 0.4 },
   checkCircle: { width: 24, height: 24, borderRadius: "50%", border: `2px solid ${C.border}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, color: "#fff", flexShrink: 0, transition: "all 0.2s" },
