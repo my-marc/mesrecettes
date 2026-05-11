@@ -29,7 +29,7 @@ const dishes = [
     name: "Nouilles sautées aux crevettes",
     subtitle: "Carotte • Poireau • Sauce soja",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "632 kcal",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+    image: "https://images.getrecipekit.com/20250411063238-nouilles-20saute-cc-81es-20aux-20crevettes-20et-20sauce-20xo.jpg?aspect_ratio=16:9&quality=90&",
     tags: ["Crevettes", "Asiatique", "Rapide"],
     ingredients: [
       { item: "Nouilles de blé", qty: "1 paquet" }, { item: "Crevettes", qty: "1 paquet" },
@@ -52,7 +52,7 @@ const dishes = [
     name: "Curry de poulet au lait de coco",
     subtitle: "Riz • Cacahuètes • Citron",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "3418 kcal",
-    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+    image: "https://lesbonnesrecettes.fr/images/recettes-512/curry-sate-malaisien-authentique-et-savoureux-1409.webp",
     tags: ["Poulet", "Asiatique", "Épicé"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Blanc de poulet", qty: "1 paquet" },
