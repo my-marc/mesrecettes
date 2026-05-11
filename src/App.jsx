@@ -77,7 +77,7 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://images.unsplash.com/photo-1628191011227-522c7c1a765b?w=600&q=80",
+    image: "https://img.hellofresh.com/hellofresh_s3/image/65640598c79d741428512c18-524b4a9a.jpeg",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
