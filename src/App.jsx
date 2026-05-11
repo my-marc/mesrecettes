@@ -287,20 +287,20 @@ export default function App() {
 }
 
 const C = {
-  bg: "#0f0f0f",
-  card: "#1a1a1a",
-  cardHover: "#222",
-  accent: "#d4a843",
-  accentLight: "#f0c060",
-  text: "#f5f0e8",
-  muted: "#888",
-  border: "#2a2a2a",
-  green: "#4caf6e",
+  bg: "#f0ede8",
+  card: "#ffffff",
+  cardHover: "#f8f6f2",
+  accent: "#2d5a3d",
+  accentLight: "#3d7a52",
+  text: "#1a2e22",
+  muted: "#7a8a80",
+  border: "#ddd8d0",
+  green: "#2d5a3d",
 };
 
 const styles = {
   root: {
-    fontFamily: "'Georgia', 'Times New Roman', serif",
+    fontFamily: "'Futura', 'Century Gothic', 'Trebuchet MS', sans-serif",
     background: C.bg,
     minHeight: "100vh",
     color: C.text,
@@ -309,7 +309,7 @@ const styles = {
     position: "sticky",
     top: 0,
     zIndex: 100,
-    background: "rgba(15,15,15,0.92)",
+    background: "rgba(240,237,232,0.92)",
     backdropFilter: "blur(12px)",
     borderBottom: `1px solid ${C.border}`,
     padding: "0 20px",
@@ -339,7 +339,7 @@ const styles = {
     background: C.accent,
     border: "none",
     borderRadius: 20,
-    color: "#000",
+    color: "#ffffff",
     fontWeight: "bold",
     fontSize: 13,
     padding: "6px 14px",
@@ -380,7 +380,7 @@ const styles = {
     letterSpacing: "0.04em",
   },
   cardBody: { padding: "16px 18px 18px" },
-  cardName: { fontSize: 20, fontWeight: "normal", margin: "0 0 4px", letterSpacing: "-0.01em", color: "#f5f0e8" },
+  cardName: { fontSize: 20, fontWeight: "normal", margin: "0 0 4px", letterSpacing: "-0.01em" },
   cardSub: { fontSize: 13, color: C.muted, margin: "0 0 12px" },
   cardMeta: { display: "flex", flexWrap: "wrap", gap: 8 },
   metaItem: { fontSize: 12, color: C.muted, letterSpacing: "0.02em" },
@@ -409,7 +409,7 @@ const styles = {
   recipeHeroImg: { width: "100%", height: "100%", objectFit: "cover", display: "block" },
   recipeHeroGrad: {
     position: "absolute", inset: 0,
-    background: "linear-gradient(to top, rgba(15,15,15,1) 0%, rgba(15,15,15,0.3) 60%, transparent 100%)",
+    background: "linear-gradient(to top, rgba(240,237,232,1) 0%, rgba(240,237,232,0.2) 60%, transparent 100%)",
   },
   recipeHeroContent: { position: "absolute", bottom: 20, left: 16, right: 16 },
   recipeTitle: { fontSize: 26, fontWeight: "normal", margin: "0 0 8px", letterSpacing: "-0.02em" },
@@ -451,7 +451,7 @@ const styles = {
   },
   stepNum: { fontSize: 11, color: C.accent, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 4 },
   stepTitle: { fontSize: 18, fontWeight: "normal", margin: "0 0 12px" },
-  stepDesc: { fontSize: 14, lineHeight: 1.7, color: "#ccc", margin: 0 },
+  stepDesc: { fontSize: 14, lineHeight: 1.7, color: "#4a5e52", margin: 0 },
 
   stepNav: { display: "flex", gap: 10, marginBottom: 32 },
   navBtn: {
@@ -462,7 +462,7 @@ const styles = {
   },
   navBtnPrimary: {
     background: C.accent, border: "none",
-    color: "#000", fontWeight: "bold",
+    color: "#ffffff", fontWeight: "bold",
     padding: "12px 20px", borderRadius: 10,
     fontSize: 14, cursor: "pointer", fontFamily: "inherit",
     display: "inline-block",
@@ -491,7 +491,7 @@ const styles = {
   shoppingCTA: {
     width: "100%", marginTop: 28,
     background: C.accent, border: "none",
-    borderRadius: 12, color: "#000",
+    borderRadius: 12, color: "#ffffff",
     fontWeight: "bold", fontSize: 16,
     padding: "16px", cursor: "pointer",
     fontFamily: "inherit", letterSpacing: "0.02em",
