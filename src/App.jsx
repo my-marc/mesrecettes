@@ -6,7 +6,7 @@ const dishes = [
     name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg",
+    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
@@ -245,7 +245,7 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R235_W32_FR_RFR38643-2_Main_high-46071c1b.jpg",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
@@ -352,7 +352,7 @@ const dishes = [
     name: "Curry vert de crevettes au combava",
     subtitle: "Lait de coco • Lentilles corail • Gingembre",
     time: "45 min", servings: 4, difficulty: "Moyen", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80",
     tags: ["Crevettes", "Thaï", "Épicé"],
     ingredients: [
       { item: "Crevettes crues", qty: "16 à 24 pièces" }, { item: "Pâte de curry vert", qty: "2–3 cc" },
@@ -470,7 +470,7 @@ const dishes = [
     name: "Tataki de saumon & mangue fraîche",
     subtitle: "Riz japonais • Marinade miel & sésame",
     time: "30 min", servings: 4, difficulty: "Moyen", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=600&q=80",
     tags: ["Saumon", "Japonais", "Marinade"],
     ingredients: [
       { item: "Pavés de saumon", qty: "4 pièces" }, { item: "Riz japonais", qty: "280 g" },
@@ -516,7 +516,7 @@ const dishes = [
     name: "Poulet aux champignons & lardons",
     subtitle: "Riz thaï • Crème • Persil frais",
     time: "40 min", servings: 4, difficulty: "Facile", calories: "610 kcal",
-    image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c7?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1604908177522-1b4a2f1d1d84?w=600&q=80",
     tags: ["Poulet", "Crémeux", "Réconfortant"],
     ingredients: [
       { item: "Filets de poulet fermier", qty: "4 pièces" }, { item: "Riz thaï", qty: "300 g" },
@@ -586,7 +586,7 @@ const dishes = [
     name: "Salade quinoa, grenade, feta & menthe",
     subtitle: "Boulgour • Grenade • Vinaigrette xérès",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "510 kcal",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
     tags: ["Végétarien", "Frais", "Céréales"],
     ingredients: [
       { item: "Quinoa blond", qty: "100 g" }, { item: "Boulgour", qty: "85 g" },
