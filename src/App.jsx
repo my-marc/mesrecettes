@@ -6,7 +6,7 @@ const dishes = [
     name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg?aspect_ratio=16:9&quality=90&",
+    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
@@ -29,7 +29,7 @@ const dishes = [
     name: "Nouilles sautées aux crevettes",
     subtitle: "Carotte • Poireau • Sauce soja",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "632 kcal",
-    image: "https://images.getrecipekit.com/20250411063238-nouilles-20saute-cc-81es-20aux-20crevettes-20et-20sauce-20xo.jpg?aspect_ratio=16:9&quality=90&",
+    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
     tags: ["Crevettes", "Asiatique", "Rapide"],
     ingredients: [
       { item: "Nouilles de blé", qty: "1 paquet" }, { item: "Crevettes", qty: "1 paquet" },
@@ -41,10 +41,10 @@ const dishes = [
       { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Atelier découpe", desc: "Tamponnez les crevettes avec de l'essuie-tout. Faites chauffer un petit filet d'huile de tournesol dans une sauteuse. Faites-y cuire les crevettes des deux côtés 2–3 min, ou jusqu'à ce qu'elles soient bien colorées. Épluchez la carotte et coupez-la en fines demi-lunes. Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes. Ciselez finement l'oignon." },
-      { num: 2, title: "Ça chauffe !", desc: "Portez une grande casserole d'eau salée à ébullition pour les nouilles. Réservez les crevettes hors de la sauteuse, puis faites-y revenir la carotte, le poireau et l'oignon à couvert 7–10 min avec ¾ cs d'eau par personne. Ajoutez, râpez l'ail et le gingembre. Épicez avec le piment (ça pique !). Remuez régulièrement." },
-      { num: 3, title: "La sauce qui fait la diff", desc: "Faites cuire les nouilles dans l'eau bouillante 2–3 min. Égouttez-les et passez-les sous l'eau froide pour éviter qu'elles ne collent. Égouttez-les à nouveau. Ajoutez les crevettes, la moitié de la coriandre, la quantité indiquée de sauce soja et la sauce asiatique sucrée. Remuez quelques secondes." },
-      { num: 4, title: "Sur la route des saveurs", desc: "Incorporez les nouilles à la sauteuse et mélangez bien 2 min pour qu'elles s'imprègnent de la sauce. Servez-les dans des assiettes creuses. Saupoudrez le reste de coriandre et ajustez l'assaisonnement en poivre." },
+      { num: 1, title: "Atelier découpe", desc: "Tamponnez les crevettes avec de l'essuie-tout. Faites chauffer un petit filet d'huile de tournesol dans une sauteuse. Faites-y cuire les crevettes des deux côtés 2–3 min. Épluchez la carotte et coupez-la en fines demi-lunes. Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes. Ciselez finement l'oignon." },
+      { num: 2, title: "Ça chauffe !", desc: "Portez une grande casserole d'eau salée à ébullition pour les nouilles. Réservez les crevettes hors de la sauteuse, puis faites-y revenir la carotte, le poireau et l'oignon à couvert 7–10 min. Ajoutez, râpez l'ail et le gingembre. Épicez avec le piment. Remuez régulièrement." },
+      { num: 3, title: "La sauce qui fait la diff", desc: "Faites cuire les nouilles dans l'eau bouillante 2–3 min. Égouttez-les et passez-les sous l'eau froide. Égouttez-les à nouveau. Ajoutez les crevettes, la moitié de la coriandre, la sauce soja et la sauce asiatique sucrée. Remuez quelques secondes." },
+      { num: 4, title: "Sur la route des saveurs", desc: "Incorporez les nouilles à la sauteuse et mélangez bien 2 min. Servez dans des assiettes creuses. Saupoudrez le reste de coriandre et ajustez l'assaisonnement en poivre." },
     ],
   },
   {
@@ -52,7 +52,7 @@ const dishes = [
     name: "Curry de poulet au lait de coco",
     subtitle: "Riz • Cacahuètes • Citron",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "3418 kcal",
-    image: "https://lesbonnesrecettes.fr/images/recettes-512/curry-sate-malaisien-authentique-et-savoureux-1409.webp?aspect_ratio=16:9&quality=90&",
+    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
     tags: ["Poulet", "Asiatique", "Épicé"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Blanc de poulet", qty: "1 paquet" },
@@ -64,12 +64,12 @@ const dishes = [
       { item: "Huile de tournesol", qty: "1 cs" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Opération découpe", desc: "Portez une grande casserole d'eau salée à ébullition pour le riz. Ciselez finement l'oignon. Râpez l'ail et le gingembre. Coupez le poireau en deux dans l'épaisseur, lavez-le bien et coupez-le en fines demi-lunes. Effeuillez la coriandre et ciselez-la selon votre goût. Dosez-le selon votre goût. Concassez les cacahuètes si vous le souhaitez." },
-      { num: 2, title: "Le riz passe à la casserole", desc: "Recoupez le poulet en plus petits dés si nécessaire. Faites cuire le riz 12–14 min dans la casserole, ou jusqu'à ce qu'il soit tendre. Égouttez-le et réservez-le à couvert." },
-      { num: 3, title: "Au tour du poulet", desc: "Pendant ce temps, faites chauffer un filet d'huile de tournesol à feu moyen-vif dans un wok ou une sauteuse. Faites-y dorer le poulet 3–4 min sur tous les côtés (il ne doit pas encore être totalement cuit à ce stade). Salez et poivrez. Réservez-le hors du wok, mais conservez ce dernier avec les jus de cuisson." },
-      { num: 4, title: "Le curry s'invite", desc: "Faites revenir l'oignon, l'ail, le gingembre et ¾ sachet de curry par personne dans le wok à feu moyen, en remuez et faites-le cuire 9–11 min de plus à couvert, ou jusqu'à ce qu'il soit bien réduit et qu'il n'y ait plus d'eau dans le wok. Versez un filet d'huile si les légumes accrochent." },
-      { num: 5, title: "Le secret est dans la sauce", desc: "Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent. Ajoutez-le ainsi que ¼ cs de sauce poisson par personne (voir LASTUCE). Mélangez, puis couvrez et laissez mijoter 5 min, ou jusqu'à ce que le poulet soit cuit à cœur." },
-      { num: 6, title: "Direction la Thaïlande !", desc: "Servez le riz et le curry Thai au poulet dans des assiettes creuses. Disposez quelques gouttes au-dessus de son plat selon votre goût. Saupoudrez du tout de coriandre et de cacahuètes. Pressez ¼ citron par personne dans chaque assiette afin que chacun puisse en presser selon son goût." },
+      { num: 1, title: "Opération découpe", desc: "Portez une grande casserole d'eau salée à ébullition pour le riz. Ciselez finement l'oignon. Râpez l'ail et le gingembre. Coupez le poireau en deux dans l'épaisseur, lavez-le bien et coupez-le en fines demi-lunes. Effeuillez la coriandre et ciselez-la. Concassez les cacahuètes si vous le souhaitez." },
+      { num: 2, title: "Le riz passe à la casserole", desc: "Recoupez le poulet en plus petits dés si nécessaire. Faites cuire le riz 12–14 min dans la casserole. Égouttez-le et réservez-le à couvert." },
+      { num: 3, title: "Au tour du poulet", desc: "Faites chauffer un filet d'huile de tournesol à feu moyen-vif dans un wok. Faites-y dorer le poulet 3–4 min sur tous les côtés. Salez et poivrez. Réservez-le hors du wok." },
+      { num: 4, title: "Le curry s'invite", desc: "Faites revenir l'oignon, l'ail, le gingembre et ¾ sachet de curry par personne dans le wok à feu moyen 9–11 min à couvert. Versez un filet d'huile si les légumes accrochent." },
+      { num: 5, title: "Le secret est dans la sauce", desc: "Secouez le paquet de lait de coco. Ajoutez-le ainsi que ¼ cs de sauce poisson par personne. Mélangez, puis couvrez et laissez mijoter 5 min jusqu'à ce que le poulet soit cuit à cœur." },
+      { num: 6, title: "Direction la Thaïlande !", desc: "Servez le riz et le curry dans des assiettes creuses. Saupoudrez de coriandre et de cacahuètes. Pressez ¼ citron par personne." },
     ],
   },
   {
@@ -77,24 +77,24 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://5dinners1hour.com/wp-content/uploads/2016/02/black-bean-corn-Q8.jpg?aspect_ratio=16:9&quality=90&",
+    image: "https://images.unsplash.com/photo-1628191011227-522c7c1a765b?w=600&q=80",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
       { item: "Chair de tomates", qty: "1 pièce" }, { item: "Oignon rouge", qty: "1 pièce" },
-      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Haricots de terre", qty: "1 pièce" },
-      { item: "Cheddar râpé", qty: "1 sachet" }, { item: "Épices mexicaines", qty: "1 sachet" },
-      { item: "Tortillas de blé complet", qty: "4 pièces" }, { item: "Guacamole", qty: "80 g" },
-      { item: "Origan séché", qty: "¼ sachet" }, { item: "Sucrine", qty: "1 sachet" },
-      { item: "Huile d'olive", qty: "2 cc" }, { item: "Vinaigre de vin rouge ou de cidre", qty: "3 cs" },
+      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Cheddar râpé", qty: "1 sachet" },
+      { item: "Épices mexicaines", qty: "1 sachet" }, { item: "Tortillas de blé complet", qty: "4 pièces" },
+      { item: "Guacamole", qty: "80 g" }, { item: "Origan séché", qty: "¼ sachet" },
+      { item: "Sucrine", qty: "1 sachet" }, { item: "Huile d'olive", qty: "2 cc" },
+      { item: "Vinaigre de vin rouge ou de cidre", qty: "3 cs" },
       { item: "Sucre", qty: "2 cc" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Ça donne la frite !", desc: "Préchauffez le four à 220°C (200°C chaleur tournante). Épluchez et coupez les pommes de terre en frites entières (non épluchées), ou jusqu'à ce qu'elles soient tendres. Placez les frites sur une plaque recouverte de papier sulfurisé. Mélangez-les avec un filet d'huile d'olive, du sel et du poivre. Enfournez-les 25–30 min avec une gousse d'ail entière." },
-      { num: 2, title: "En rang d'oignon", desc: "Coupez l'oignon en très fines demi-lunes et placez-les dans un bol. Ajoutez une pincée de sel, puis 1 cc de vinaigre de vin rouge (ou vinaigre de cidre) par personne. Mélangez la chair de tomate avec, par personne : ½ cc de sucre, une pincée d'origan séché, du sel et du poivre." },
-      { num: 3, title: "Mélange gourmand", desc: "Dans un autre bol, mélangez la moitié des haricots rouges avec la moitié du cheddar râpé et, par personne : ½ sachet d'épices mexicaines et la moitié de la sauce tomate. Avec une fourchette, écrasez le mélange de sorte à former une pâte. Ajoutez le reste des haricots rouges sans les écraser et mélangez." },
-      { num: 4, title: "Un tour au four", desc: "Lorsqu'il reste 10 min de cuisson aux pommes de terre, écrasez la gousse d'ail pour en faire sortir la pulpe et mélangez-la aux frites. Disposez les tortillas sur une plaque recouverte de papier sulfurisé. Badigeonnez chaque tortilla d'un filet d'huile d'olive, répartissez la farce et appuyez doucement avec une spatule pour l'enfermer. Repliez chaque tortilla sur la farce et recouvrez-les avec le reste du cheddar râpé." },
-      { num: 5, title: "Cheese comme on aime", desc: "Enfournez les quesadillas 5–8 min, ou jusqu'à ce que le fromage ait fondu et que les tortillas soient dorées. Pendant ce temps, mélangez le guacamole avec un filet d'huile d'olive. Dans un saladier, coupez la sucrine en lanières. Salez et poivrez. Dans un saladier, préparez une vinaigrette en mélangeant un filet d'huile de tournesol, le vinaigre balsamique, du sel et du poivre." },
+      { num: 1, title: "Ça donne la frite !", desc: "Préchauffez le four à 220°C. Épluchez et coupez les pommes de terre en frites. Placez-les sur une plaque avec du papier sulfurisé. Mélangez avec un filet d'huile d'olive, sel et poivre. Enfournez 25–30 min avec une gousse d'ail entière." },
+      { num: 2, title: "En rang d'oignon", desc: "Coupez l'oignon en très fines demi-lunes. Ajoutez une pincée de sel et 1 cc de vinaigre par personne. Mélangez la chair de tomate avec ½ cc de sucre, une pincée d'origan séché, sel et poivre." },
+      { num: 3, title: "Mélange gourmand", desc: "Mélangez la moitié des haricots rouges avec la moitié du cheddar râpé et ½ sachet d'épices mexicaines par personne. Écrasez à la fourchette pour former une pâte. Ajoutez le reste des haricots sans les écraser." },
+      { num: 4, title: "Un tour au four", desc: "Écrasez la gousse d'ail cuite dans les frites. Disposez les tortillas sur une plaque, badigeonnez d'huile d'olive, répartissez la farce, repliez et recouvrez de cheddar." },
+      { num: 5, title: "Cheese comme on aime", desc: "Enfournez les quesadillas 5–8 min jusqu'à ce que le fromage ait fondu et que les tortillas soient dorées. Mélangez le guacamole avec un filet d'huile d'olive. Coupez la sucrine en lanières et assaisonnez." },
       { num: 6, title: "Un pas vers le Mexique", desc: "Répartissez les quesadillas dans les assiettes. Servez avec les frites, la salade et le reste de sauce tomate." },
     ],
   },
@@ -112,10 +112,10 @@ const dishes = [
       { item: "Crème liquide", qty: "1 paquet" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Mission découpe activée !", desc: "Portez une grande casserole d'eau salée à ébullition pour les pâtes. Nettoyez les champignons et coupez-les en quartiers (voir l'ASTUCE). Lavez bien le poireau, puis coupez-le en fines rondelles, puis coupez-les en quartiers (voir LASTUCE). Ciselez l'ail." },
-      { num: 2, title: "Les pâtes au bain", desc: "Faites cuire les fusilli 12–15 min dans la casserole d'eau bouillante, ou jusqu'à ce qu'il soit tendre. Égouttez-les et réservez-les pour l'étape suivante. Réserver ¼ louche d'eau de cuisson par personne." },
-      { num: 3, title: "Ça chauffe !", desc: "Pendant ce temps, faites chauffer une sauteuse à feu moyen-vif. Ajoutez les fusilli, le pesto aux champignons et la crème. Faites-y revenir les lardons, le poireau, les champignons et l'ail 6–8 min. Remuez bien et faites chauffer 1–2 min, ou jusqu'à ce que le tout soit bien mélangé et les pâtes crémeuses." },
-      { num: 4, title: "Showtime !", desc: "Goûtez et ajustez l'assaisonnement si besoin (attention à ne pas vous brûler !). Servez aussitôt les fusilli au poireau et lardons dans les assiettes." },
+      { num: 1, title: "Mission découpe activée !", desc: "Portez une grande casserole d'eau salée à ébullition. Nettoyez les champignons et coupez-les en quartiers. Lavez bien le poireau, puis coupez-le en fines rondelles. Ciselez l'ail." },
+      { num: 2, title: "Les pâtes au bain", desc: "Faites cuire les fusilli 12–15 min dans la casserole d'eau bouillante. Égouttez-les et réservez ¼ louche d'eau de cuisson par personne." },
+      { num: 3, title: "Ça chauffe !", desc: "Faites chauffer une sauteuse à feu moyen-vif. Faites-y revenir les lardons, le poireau, les champignons et l'ail 6–8 min. Ajoutez les fusilli, le pesto aux champignons et la crème. Remuez bien 1–2 min." },
+      { num: 4, title: "Showtime !", desc: "Goûtez et ajustez l'assaisonnement si besoin. Servez aussitôt les fusilli dans les assiettes." },
     ],
   },
   {
@@ -134,10 +134,10 @@ const dishes = [
       { item: "Huile de tournesol", qty: "1 cs" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Casserole en action", desc: "Portez une casserole d'eau salée à ébullition. Faites cuire le riz dans la casserole 12–14 min, ou jusqu'à ce qu'il soit tendre. Lavez bien le citron et prélevez-en le zeste avec une râpe fine. Coupez-le en quartiers." },
-      { num: 2, title: "Atelier découpe", desc: "Pendant ce temps, coupez le concombre en fines demi-lunes. Épluchez et râpez la carotte avec une râpe à gros grains. Dans un bol, ajoutez le concombre, la carotte, le gingembre, le jus de ¼ citron par personne, du sel et du poivre. Dosez-le selon votre goût. Mélangez et réservez." },
-      { num: 3, title: "Le porc y passe", desc: "Faites chauffer un filet d'huile de tournesol dans une sauteuse à feu moyen-vif. Faites-y cuire la chair à saucisse la sriracha (ça pique !). Dosez-la selon votre goût et ½ cc de sucre par personne. Faites revenir 1–2 min, ou jusqu'à ce que la sauce devienne légèrement sirupeuse. Salez et poivrez." },
-      { num: 4, title: "Le grand final", desc: "Mélangez la mayonnaise avec le reste de la sauce soja dans un petit bol. Servez le riz dans des assiettes creuses. Servez le porc à côté. Répartissez la salade de crudités à côté. Nappez la mayo au soja par-dessus." },
+      { num: 1, title: "Casserole en action", desc: "Portez une casserole d'eau salée à ébullition. Faites cuire le riz 12–14 min. Lavez bien le citron et prélevez-en le zeste avec une râpe fine. Coupez-le en quartiers." },
+      { num: 2, title: "Atelier découpe", desc: "Coupez le concombre en fines demi-lunes. Épluchez et râpez la carotte. Dans un bol, ajoutez le concombre, la carotte, le gingembre, le jus de ¼ citron par personne, sel et poivre. Mélangez et réservez." },
+      { num: 3, title: "Le porc y passe", desc: "Faites chauffer un filet d'huile dans une sauteuse à feu moyen-vif. Faites-y cuire la chair à saucisse avec la sriracha et ½ cc de sucre par personne. Faites revenir 1–2 min jusqu'à ce que la sauce devienne légèrement sirupeuse." },
+      { num: 4, title: "Le grand final", desc: "Mélangez la mayonnaise avec le reste de la sauce soja dans un petit bol. Servez le riz, le porc et la salade de crudités dans les assiettes. Nappez la mayo au soja par-dessus." },
     ],
   },
   {
@@ -146,7 +146,7 @@ const dishes = [
     subtitle: "Carottes • Épinards • Yaourt grec",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "2799 kcal",
     image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80",
-    tags: ["Agneau", "Moyen-Orient", "Épicé"],
+    tags: ["Bœuf", "Moyen-Orient", "Épicé"],
     ingredients: [
       { item: "Viande hachée au bœuf", qty: "150 g" }, { item: "Mélange d'épices du Moyen-Orient", qty: "1 sachet" },
       { item: "Épinards", qty: "1 paquet" }, { item: "Semoule", qty: "1 pot" },
@@ -157,12 +157,12 @@ const dishes = [
       { item: "Huile d'olive", qty: "1 cc" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Les carottes sont cuites", desc: "Épluchez et coupez la carotte en fines demi-lunes. Ciselez finement l'oignon. Faites chauffer un petit filet d'huile d'olive dans une grande sauteuse à feu moyen. Faites-y revenir la carotte et les ⅔ de l'oignon (gardez le reste pour les keftas) 10–15 min avec un filet d'eau pour qu'ils commencent à devenir fondants." },
-      { num: 2, title: "Keftas en construction", desc: "Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers. Effeuillez et ciselez l'ail. Dans un saladier, mélangez le bœuf avec le reste des épices du Moyen-Orient par personne, la moitié de l'ail, ⅓ de la menthe, du zeste de citron (ça pique), une pincée d'origan, du sel, du poivre. Dosez-les selon votre goût. Formez 3 boulettes allongées et légèrement aplaties par personne ; tassez-les bien." },
-      { num: 3, title: "Hop, à la poêle !", desc: "Faites chauffer un petit filet d'huile de tournesol dans une petite poêle à feu moyen-vif. Faites-y revenir les keftas 4–5 min de chaque côté, ou jusqu'à ce qu'ils soient cuits à cœur (conservez le jus de cuisson)." },
-      { num: 4, title: "La cuisson, la suite", desc: "Dans une casserole, ajoutez par personne : ¼ de cube de cuisson des légumes, ¼ de la menthe et 1 cc d'eau. Portez à ébullition. Après avoir lavé les mains, ajoutez ½ reste de l'ail, ⅔ des épices du Moyen-Orient, déchirez-les avec vos mains par-dessus. Baissez le feu sur doux, puis couvrez et laissez cuire 8–10 min. Salez et poivrez et ajustez." },
-      { num: 5, title: "Plouf dans la casserole !", desc: "Retirez le bouillon du feu et ajoutez-y la semoule. Couvrez et laissez reposer jusqu'à ce que l'eau soit bien absorbée. Égrenez-la avec une fourchette, et assaisonnez-la avec le jus de citron (selon votre goût), quelques gouttes de jus de citron des légumes cuits, quelques gouttes de jus de cuisson des keftas, de la menthe, du sel et du poivre." },
-      { num: 6, title: "Sur la route des saveurs", desc: "Dans un petit bol, mélangez le yaourt avec quelques gouttes de jus de citron et une pincée de menthe. Servez la semoule dans des assiettes creuses. Disposez les frites (légumes), les keftas. Saupoudrez du tout de persil haché. Ajoutez le lait ainsi que la sauce ravigote et le tout dessus. Arrosez de le tour de sauce." },
+      { num: 1, title: "Les carottes sont cuites", desc: "Épluchez et coupez la carotte en fines demi-lunes. Ciselez finement l'oignon. Faites chauffer un filet d'huile d'olive dans une grande sauteuse. Faites-y revenir la carotte et les ⅔ de l'oignon 10–15 min." },
+      { num: 2, title: "Keftas en construction", desc: "Prélevez le zeste du citron. Ciselez l'ail. Dans un saladier, mélangez le bœuf avec les épices, la moitié de l'ail, ⅓ de la menthe, du zeste de citron, sel et poivre. Formez 3 boulettes allongées par personne." },
+      { num: 3, title: "Hop, à la poêle !", desc: "Faites chauffer un filet d'huile dans une petite poêle. Faites-y revenir les keftas 4–5 min de chaque côté jusqu'à cœur. Conservez le jus de cuisson." },
+      { num: 4, title: "La cuisson, la suite", desc: "Dans une casserole, ajoutez ¼ de cube de bouillon, ¼ de la menthe et 1 cc d'eau par personne. Portez à ébullition. Ajoutez le reste de l'ail et ⅔ des épices. Baissez le feu, couvrez et laissez cuire 8–10 min." },
+      { num: 5, title: "Plouf dans la casserole !", desc: "Retirez le bouillon du feu et ajoutez-y la semoule. Couvrez et laissez reposer jusqu'à absorption. Égrenez à la fourchette et assaisonnez avec le jus de citron, de la menthe, sel et poivre." },
+      { num: 6, title: "Sur la route des saveurs", desc: "Mélangez le yaourt avec quelques gouttes de jus de citron et une pincée de menthe. Servez la semoule, les légumes et les keftas dans des assiettes creuses. Nappez de sauce yaourt." },
     ],
   },
   {
@@ -181,12 +181,12 @@ const dishes = [
       { item: "Beurre", qty: "2 cs" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Plouf, dans l'eau bouillante !", desc: "Préchauffez le four à 200°C (180°C chaleur tournante). Épluchez et coupez les carottes et les pommes de terre en tronçons de 1–2 cm. Placez-les dans une casserole, versez de l'eau à mi-hauteur et faites cuire 15–17 min, ou jusqu'à ce que la pointe d'un couteau y rentre facilement. Réservez un peu d'eau de cuisson, puis égouttez-les." },
-      { num: 2, title: "Session bronzage", desc: "Séparez les tranches de poitrine fumée et disposez-les sur une plaque recouverte de papier sulfurisé. Enfournez-les 8–10 min, ou jusqu'à ce qu'elles soient bien croustillantes. Effeuillez la poitrine fumée grillée, puis coupez-la en petites lanières." },
-      { num: 3, title: "Un A/R pour le poisson", desc: "Épongez le lieu avec de l'essuie-tout, puis assaisonnez-le d'une pincée de paprika et poivrez-le généreusement. Lorsqu'il reste 5 min de chaque côté, faites chauffer une poêle à feu moyen-vif avec un filet d'huile d'olive et faites-y cuire le lieu 1–2 min de chaque côté, ou jusqu'à ce qu'il soit cuit à cœur." },
-      { num: 4, title: "L'art de la vinaigrette", desc: "En attendant, dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre balsamique et un généreux filet d'huile d'olive. Salez et poivrez. Ajoutez la salade au moment de servir." },
-      { num: 5, title: "Purée en cours", desc: "Écrasez les pommes de terre et les carottes avec un presse-purée. Ajoutez une généreuse noix de beurre. Mélangez et ajustez légèrement, poivrez et mélangez. Si besoin, ajoutez également un peu de liquide de cuisson pour l'onctuosité." },
-      { num: 6, title: "Miam, miam !", desc: "Servez la purée dans les assiettes. Saupoudrez le poisson de chips de lard et de persil ciselé. Ajoutez le lieu ainsi que la sauce ravigote et la salade dessus." },
+      { num: 1, title: "Plouf, dans l'eau bouillante !", desc: "Préchauffez le four à 200°C. Épluchez et coupez les carottes et les pommes de terre en tronçons de 1–2 cm. Faites cuire 15–17 min. Réservez un peu d'eau de cuisson, puis égouttez." },
+      { num: 2, title: "Session bronzage", desc: "Disposez les tranches de poitrine fumée sur une plaque avec du papier sulfurisé. Enfournez 8–10 min jusqu'à ce qu'elles soient croustillantes. Coupez-les en petites lanières." },
+      { num: 3, title: "Un A/R pour le poisson", desc: "Épongez le lieu, assaisonnez-le de paprika et poivrez généreusement. Faites chauffer une poêle avec un filet d'huile d'olive et faites-y cuire le lieu 1–2 min de chaque côté à cœur." },
+      { num: 4, title: "L'art de la vinaigrette", desc: "Dans un saladier, faites une vinaigrette avec un filet de vinaigre balsamique et d'huile d'olive. Salez et poivrez. Ajoutez la salade au moment de servir." },
+      { num: 5, title: "Purée en cours", desc: "Écrasez les pommes de terre et les carottes au presse-purée. Ajoutez une noix de beurre. Mélangez et ajustez. Ajoutez un peu de liquide de cuisson si besoin." },
+      { num: 6, title: "Miam, miam !", desc: "Servez la purée dans les assiettes. Saupoudrez de chips de lard et de persil ciselé. Ajoutez le lieu et la sauce ravigote." },
     ],
   },
   {
@@ -207,11 +207,11 @@ const dishes = [
       { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Opération découpe", desc: "Préchauffez le four à 220°C sur le mode grill. Effeuillez et ciselez finement le persil. Lavez-les bien, coupez les poireaux en deux dans la longueur, puis coupez-les en fines demi-lunes. Ciselez l'ail et l'oignon." },
-      { num: 2, title: "On fond pour les poireaux", desc: "Faites fondre une noix de beurre dans une sauteuse à feu moyen-vif. Faites-y revenir l'oignon, l'ail et le poireau 2 min. Déglacez avec l'eau et ¼ cs de vinaigre de vin blanc par personne ; ½ cs de moutarde, par personne. Versez le l'eau à mi-hauteur et ajoutez, par personne : ¼ cube de bouillon et ¾ cc de thym séché. Salez et poivrez. Couvrez et prolongez la cuisson de 5–7 min. Remuez régulièrement." },
-      { num: 3, title: "Touche gourmande", desc: "Une fois le poireau cuit, ajoutez la crème, le gouda et du persil à la sauteuse. Mélangez jusqu'à ce que l'ensemble soit homogène. Si le cantal se défait trop au moment de le râper, vous pouvez le tailler en petits cubes." },
+      { num: 1, title: "Opération découpe", desc: "Préchauffez le four à 220°C sur le mode grill. Ciselez finement le persil. Lavez et coupez les poireaux en fines demi-lunes. Ciselez l'ail et l'oignon." },
+      { num: 2, title: "On fond pour les poireaux", desc: "Faites fondre une noix de beurre dans une sauteuse. Faites-y revenir l'oignon, l'ail et le poireau 2 min. Déglacez avec l'eau, le vinaigre et la moutarde. Ajoutez le bouillon et le thym. Salez, poivrez, couvrez 5–7 min." },
+      { num: 3, title: "Touche gourmande", desc: "Une fois le poireau cuit, ajoutez la crème, le gouda et du persil. Mélangez jusqu'à homogénéité." },
       { num: 4, title: "Dans l'eau bouillante", desc: "Portez une casserole d'eau salée à ébullition. Faites-y cuire les tortelloni 1 min. Égouttez-les." },
-      { num: 5, title: "Hop, au four !", desc: "Dans un plat à four préalablement huilé, disposez la moitié de la fondue de poireau, puis les tortelloni et terminez avec le reste de fondue de poireau. Recouvrez le tout de cantal. Enfournez 10–12 min dans la partie haute du four, ou jusqu'à ce que le fromage soit gratiné." },
+      { num: 5, title: "Hop, au four !", desc: "Dans un plat à four huilé, disposez la moitié de la fondue de poireau, puis les tortelloni et terminez avec le reste. Recouvrez de cantal. Enfournez 10–12 min jusqu'à ce que le fromage soit gratiné." },
       { num: 6, title: "Chaud devant !", desc: "Servez le gratin de tortelloni dans les assiettes. Saupoudrez du reste de persil." },
     ],
   },
@@ -224,7 +224,7 @@ const dishes = [
     tags: ["Poulet", "Croustillant", "Équilibré"],
     ingredients: [
       { item: "Filet de poulet", qty: "500 g" }, { item: "Brocoli", qty: "1 pièce" },
-      { item: "Pommes de terre", qty: "5 brin(s)" }, { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Pommes de terre", qty: "5 pièces" }, { item: "Gousse d'ail", qty: "1 pièce" },
       { item: "Romarin", qty: "1 sachet" }, { item: "Chapelure panko", qty: "1 sachet" },
       { item: "Mayonnaise", qty: "1 sachet" }, { item: "Moutarde", qty: "1 cs" },
       { item: "Œuf", qty: "1 pièce" }, { item: "Farine", qty: "3 cs" },
@@ -232,11 +232,11 @@ const dishes = [
       { item: "Vinaigre balsamique blanc ou de riz", qty: "1 cc" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Hop, en cuisine !", desc: "Portez une casserole d'eau salée à ébullition. Épluchez et coupez les pommes de terre en 4, voire en 3 morceaux. Coupez le brocoli en 2, voire en 3 morceaux. Effeuillez le romarin, puis hachez-le très finement. Ciselez l'ail. Posez votre main à plat sur le poulet et coupez-le horizontalement pour obtenir deux tranches fines." },
-      { num: 2, title: "Mission cuisson activée", desc: "Faites cuire les pommes de terre dans la casserole d'eau bouillante 8–10 min. Ajoutez-y le brocoli et faites cuire le tout 6–10 min de plus à la pointe d'un couteau, ou jusqu'à ce que les légumes soient tendres. Égouttez-les et faites-les refroidir jusqu'au moment de servir, réservez-les à couvert." },
-      { num: 3, title: "Enrobage doré", desc: "Pendant ce temps, dans une assiette creuse, mélangez la farine avec du sel. Dans une deuxième assiette, battez l'œuf et, dans une troisième assiette, mélangez la chapelure panko et une généreuse pincée de sel, puis dans un bol, mélangez le romarin, la chapelure panko et une généreuse pincée de sel. Trempez successivement le poulet dans la farine, puis dans l'œuf et terminez dans la chapelure panko jusqu'à ce qu'il soit entièrement recouvert." },
-      { num: 4, title: "Tenue crousti-chic", desc: "Faites chauffer environ 2 mm d'huile de tournesol dans une grande poêle ou une grande quantité suffisante pour en recouvrir le fond. Lorsque l'huile est chaude, faites-y cuire le poulet 2–4 min de chaque côté, ou jusqu'à ce qu'il soit doré et cuit à cœur. Réservez-le sur une assiette recouverte d'essuie-tout." },
-      { num: 5, title: "L'art de l'assaisonnement", desc: "Dans un saladier, mélangez la moutarde (voir LASTUCE) avec la mayonnaise (voir LASTUCE), un filet d'huile d'olive et de vinaigre balsamique, du sel et du poivre. Ajoutez les pommes de terre, le brocoli et la salade. Mélangez délicatement." },
+      { num: 1, title: "Hop, en cuisine !", desc: "Portez une casserole d'eau salée à ébullition. Épluchez et coupez les pommes de terre en 4. Coupez le brocoli en morceaux. Hachez finement le romarin. Ciselez l'ail. Coupez le poulet horizontalement pour obtenir deux tranches fines." },
+      { num: 2, title: "Mission cuisson activée", desc: "Faites cuire les pommes de terre 8–10 min. Ajoutez le brocoli et faites cuire 6–10 min de plus. Égouttez et réservez à couvert." },
+      { num: 3, title: "Enrobage doré", desc: "Dans une assiette creuse, mélangez la farine avec du sel. Dans une deuxième, battez l'œuf. Dans une troisième, mélangez la chapelure panko, le romarin et du sel. Trempez le poulet dans la farine, l'œuf puis la chapelure." },
+      { num: 4, title: "Tenue crousti-chic", desc: "Faites chauffer environ 2 mm d'huile dans une grande poêle. Faites-y cuire le poulet 2–4 min de chaque côté jusqu'à doré et cuit à cœur. Réservez sur de l'essuie-tout." },
+      { num: 5, title: "L'art de l'assaisonnement", desc: "Dans un saladier, mélangez la moutarde, la mayonnaise, un filet d'huile d'olive et de vinaigre balsamique, sel et poivre. Ajoutez les pommes de terre, le brocoli et la salade. Mélangez délicatement." },
       { num: 6, title: "On dresse, on savoure !", desc: "Servez la salade dans les assiettes. Placez le poulet pané à côté." },
     ],
   },
@@ -245,20 +245,19 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R235_W32_FR_RFR38643-2_Main_high-46071c1b.jpgw=600&q=80",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
       { item: "Ricotta", qty: "¾ pot" }, { item: "Crème de basilic", qty: "1 pot" },
       { item: "Chair de tomates", qty: "300 g" }, { item: "Pecorino Romano AOP râpé", qty: "¼ sachet" },
-      { item: "Girasoli tomate & mozzarella", qty: "1 paquet" }, { item: "Origan séché", qty: "1 sachet" },
-      { item: "Sucre", qty: "1 cc" }, { item: "Huile d'olive", qty: "2 cs" },
-      { item: "Poivre et sel", qty: "selon goût" },
+      { item: "Origan séché", qty: "1 sachet" }, { item: "Sucre", qty: "1 cc" },
+      { item: "Huile d'olive", qty: "2 cs" }, { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "À vos couteaux !", desc: "Préchauffez le four à 230°C (210°C chaleur tournante) sur le mode grill. Coupez l'aubergine en petits dés de 1 cm." },
-      { num: 2, title: "On enfourne", desc: "Dans un plat à four, mélangez l'aubergine avec un généreux filet d'huile d'olive, du sel et du poivre. Enfournez-les 20–25 min dans la partie haute du four, ou jusqu'à ce que les aubergines soient dorées et fondantes. Prolongez la cuisson si nécessaire." },
-      { num: 3, title: "Ça gratine", desc: "Mélangez ¾ pot de ricotta par personne avec la moitié de la crème de basilic dans un petit bol. Poivrez. Une fois les aubergines cuites, sortez-les du four (attention à ne pas vous brûler !), ajoutez-y les raviolis cuits, ¾ sachet d'origan séché, et 2 cs d'eau. Mélangez ; puis ajoutez-y les tomates concassées et, par personne : ¼ cc de sucre. Puis ajoutez-y les raviolis et recouvrez-les du tout de pecorino. Prolongez la cuisson de 5–6 min, ou jusqu'à ce que le tout de pecorino et les raviolis cuits." },
+      { num: 1, title: "À vos couteaux !", desc: "Préchauffez le four à 230°C sur le mode grill. Coupez l'aubergine en petits dés de 1 cm." },
+      { num: 2, title: "On enfourne", desc: "Dans un plat à four, mélangez l'aubergine avec un généreux filet d'huile d'olive, sel et poivre. Enfournez 20–25 min jusqu'à ce que les aubergines soient dorées et fondantes." },
+      { num: 3, title: "Ça gratine", desc: "Mélangez ¾ pot de ricotta par personne avec la moitié de la crème de basilic. Poivrez. Sortez les aubergines du four, ajoutez les raviolis, ¾ sachet d'origan, 2 cs d'eau et les tomates concassées avec ¼ cc de sucre. Recouvrez de pecorino. Prolongez la cuisson 5–6 min." },
       { num: 4, title: "Miam, miam !", desc: "Servez les ravioli gratinés dans les assiettes. Versez le restant de crème de basilic par-dessus. Dégustez sans attendre." },
     ],
   },
@@ -267,23 +266,22 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://img.cuisineaz.com/1200x675/2015/05/05/i88803-quiche-aux-epinards-et-feta.jpg?aspect_ratio=16:9&quality=90&",
+    image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=600&q=80",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
       { item: "Épinards frais (ou surgelés égouttés)", qty: "100 g" },
-      { item: "Feta", qty: "50 g" },
-      { item: "Œufs", qty: "1 pièce" },
+      { item: "Feta", qty: "50 g" }, { item: "Œufs", qty: "1 pièce" },
       { item: "Crème légère ou yaourt grec", qty: "7 cl" },
       { item: "Huile d'olive", qty: "1 cc" },
       { item: "Noix de muscade (facultatif)", qty: "1 pincée" },
       { item: "Sel et poivre", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Préchauffage & épinards", desc: "Préchauffez le four à 180°C. Lavez les épinards et faites-les tomber quelques minutes dans une grande poêle avec l'huile d'olive jusqu'à ce qu'ils réduisent. Égouttez-les soigneusement pour retirer l'excédent d'eau." },
+      { num: 1, title: "Préchauffage & épinards", desc: "Préchauffez le four à 180°C. Lavez les épinards et faites-les tomber quelques minutes dans une grande poêle avec l'huile d'olive jusqu'à ce qu'ils réduisent. Égouttez-les soigneusement." },
       { num: 2, title: "La pâte", desc: "Étalez la pâte dans un moule à tarte et piquez le fond avec une fourchette." },
       { num: 3, title: "L'appareil", desc: "Dans un saladier, battez l'œuf avec la crème légère ou le yaourt grec. Salez légèrement, poivrez et ajoutez une pincée de muscade." },
-      { num: 4, title: "Montage & cuisson", desc: "Répartissez les épinards sur le fond de tarte. Émiettez ou coupez la feta en dés et disposez-la sur les épinards. Versez l'appareil par-dessus. Enfournez 30 à 35 min jusqu'à ce que la tarte soit bien prise et légèrement dorée. Laissez tiédir quelques minutes avant de servir." },
+      { num: 4, title: "Montage & cuisson", desc: "Répartissez les épinards sur le fond de tarte. Émiettez la feta en dés et disposez-la sur les épinards. Versez l'appareil par-dessus. Enfournez 30 à 35 min jusqu'à ce que la tarte soit bien prise et légèrement dorée. Laissez tiédir quelques minutes avant de servir." },
     ],
   },
   {
@@ -294,13 +292,10 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1568051243858-533a607809a5?w=600&q=80",
     tags: ["Tarte", "Français", "Classique"],
     ingredients: [
-      { item: "Pâte brisée", qty: "½ rouleau" },
-      { item: "Lardons", qty: "65 g" },
-      { item: "Comté en lamelles", qty: "25 g" },
-      { item: "Œufs", qty: "2 pièces" },
+      { item: "Pâte brisée", qty: "½ rouleau" }, { item: "Lardons", qty: "65 g" },
+      { item: "Comté en lamelles", qty: "25 g" }, { item: "Œufs", qty: "2 pièces" },
       { item: "Crème fraîche épaisse", qty: "13 cl" },
-      { item: "Noix de muscade", qty: "1 pincée" },
-      { item: "Sel et poivre", qty: "selon goût" },
+      { item: "Noix de muscade", qty: "1 pincée" }, { item: "Sel et poivre", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "Préchauffage & pâte", desc: "Préchauffez le four à 210°C (thermostat 7). Étalez la pâte dans un moule à tarte, piquez le fond avec une fourchette puis faites cuire la pâte à blanc pendant 10 minutes." },
@@ -314,23 +309,20 @@ const dishes = [
     name: "Pasta Toscana à la chair saucisse",
     subtitle: "Paccheri • Chair à saucisse • Fenouil",
     time: "60 min", servings: 4, difficulty: "Facile", calories: "680 kcal",
-    image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1551183053-bf91798d765c?w=600&q=80",
     tags: ["Pâtes", "Italien", "Gourmand"],
     ingredients: [
-      { item: "Paccheri (ou pâtes courtes)", qty: "400 g" },
-      { item: "Chair à saucisse", qty: "300 g" },
+      { item: "Paccheri (ou pâtes courtes)", qty: "400 g" }, { item: "Chair à saucisse", qty: "300 g" },
       { item: "Tomates pelées San Marzano", qty: "2 boîtes 500 g" },
-      { item: "Oignon jaune", qty: "1 pièce" },
-      { item: "Graines de fenouil", qty: "1 poignée" },
-      { item: "Vin blanc", qty: "1 verre" },
-      { item: "Pecorino", qty: "selon goût" },
+      { item: "Oignon jaune", qty: "1 pièce" }, { item: "Graines de fenouil", qty: "1 poignée" },
+      { item: "Vin blanc", qty: "1 verre" }, { item: "Pecorino", qty: "selon goût" },
       { item: "Huile d'olive", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "La base", desc: "Faites revenir l'oignon haché dans de l'huile d'olive. Ajoutez les graines de fenouil (gardez-en quelques-unes pour la déco) et faites-les dorer. Ajoutez la chair à saucisse pour qu'elle dore, sans la laisser s'émietter de fenouil." },
-      { num: 2, title: "La sauce tomate", desc: "Versez le vin blanc. Ajoutez la chair à saucisse, mélangez puis ajoutez les tomates entières (elles vont réduire d'elles-mêmes à la cuisson). Laissez mijoter tranquillement pendant 45 minutes au moins." },
-      { num: 3, title: "Les pâtes", desc: "Faites cuire les pâtes dans un grand volume d'eau salée. Quand elles sont cuites, mélangez-les à la sauce et servez en ajoutant des copeaux de pecorino et les graines de fenouil restantes." },
-      { num: 4, title: "Dressage", desc: "Servez bien chaud avec un généreux tour de pecorino râpé par-dessus. La sauce doit être bien concentrée et enrober parfaitement chaque pâte." },
+      { num: 1, title: "La base", desc: "Faites revenir l'oignon haché dans de l'huile d'olive. Ajoutez les graines de fenouil et faites-les dorer. Ajoutez la chair à saucisse pour qu'elle dore." },
+      { num: 2, title: "La sauce tomate", desc: "Versez le vin blanc. Ajoutez la chair à saucisse, mélangez puis ajoutez les tomates entières. Laissez mijoter tranquillement pendant 45 minutes au moins." },
+      { num: 3, title: "Les pâtes", desc: "Faites cuire les pâtes dans un grand volume d'eau salée. Quand elles sont cuites, mélangez-les à la sauce." },
+      { num: 4, title: "Dressage", desc: "Servez bien chaud avec un généreux tour de pecorino râpé par-dessus et les graines de fenouil restantes." },
     ],
   },
   {
@@ -341,23 +333,18 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
     tags: ["Végétarien", "Maghrébin", "Équilibré"],
     ingredients: [
-      { item: "Couscous d'épeautre complet", qty: "500 g" },
-      { item: "Courgettes", qty: "2 pièces" },
-      { item: "Carottes", qty: "4 pièces" },
-      { item: "Tomate", qty: "1 pièce" },
-      { item: "Oignon", qty: "1 pièce" },
-      { item: "Branche de céleri", qty: "1 pièce" },
-      { item: "Pois chiches en conserve", qty: "200 g" },
-      { item: "Huile d'olive", qty: "2 cs" },
+      { item: "Couscous d'épeautre complet", qty: "500 g" }, { item: "Courgettes", qty: "2 pièces" },
+      { item: "Carottes", qty: "4 pièces" }, { item: "Tomate", qty: "1 pièce" },
+      { item: "Oignon", qty: "1 pièce" }, { item: "Branche de céleri", qty: "1 pièce" },
+      { item: "Pois chiches en conserve", qty: "200 g" }, { item: "Huile d'olive", qty: "2 cs" },
       { item: "Cubes de bouillon de légumes", qty: "2 pièces" },
-      { item: "Persil", qty: "¼ bouquet" },
-      { item: "Sel, poivre", qty: "selon goût" },
+      { item: "Persil", qty: "¼ bouquet" }, { item: "Sel, poivre", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "La découpe", desc: "Coupez les courgettes et les carottes en tronçons de 3 ou 4 cm et la tomate en dés. Émincez l'oignon et le céleri. Égouttez et rincez les pois chiches." },
-      { num: 2, title: "Le bouillon de légumes", desc: "Dans une cocotte, faites revenir l'oignon et le céleri avec 1 cs d'huile d'olive et 1 pincée de sel. Versez 1 l d'eau, ajoutez les cubes de bouillon émiettés, portez à ébullition. Ajoutez la tomate et les carottes, laissez cuire 20 min. Ajoutez les courgettes et les pois chiches, puis poursuivez la cuisson 5 ou 6 min." },
-      { num: 3, title: "La semoule", desc: "Faites bouillir 50 cl d'eau, mettez la semoule dans un saladier, salez et poivrez. Versez par-dessus l'eau chaude et le reste d'huile. Couvrez et attendez 2 min que le couscous gonfle. Égrainez-le à la fourchette." },
-      { num: 4, title: "Dressage", desc: "Hachez grossièrement le persil et ajoutez-le aux légumes. Servez la semoule avec les légumes et du jus de cuisson. Pour une note épicée, mélangez le couscous avec 1 ou 2 cc de ras el-hanout avant d'y verser l'eau." },
+      { num: 2, title: "Le bouillon de légumes", desc: "Dans une cocotte, faites revenir l'oignon et le céleri avec 1 cs d'huile d'olive et 1 pincée de sel. Versez 1 l d'eau, ajoutez les cubes de bouillon, portez à ébullition. Ajoutez la tomate et les carottes, laissez cuire 20 min. Ajoutez les courgettes et les pois chiches, puis poursuivez la cuisson 5 ou 6 min." },
+      { num: 3, title: "La semoule", desc: "Faites bouillir 50 cl d'eau, mettez la semoule dans un saladier, salez et poivrez. Versez l'eau chaude et le reste d'huile. Couvrez 2 min puis égrainez à la fourchette." },
+      { num: 4, title: "Dressage", desc: "Hachez grossièrement le persil et ajoutez-le aux légumes. Servez la semoule avec les légumes et du jus de cuisson. Astuce : ajoutez 1 ou 2 cc de ras el-hanout dans la semoule pour une note épicée." },
     ],
   },
   {
@@ -368,24 +355,18 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
     tags: ["Crevettes", "Thaï", "Épicé"],
     ingredients: [
-      { item: "Crevettes crues", qty: "16 à 24 pièces" },
-      { item: "Pâte de curry vert", qty: "2–3 cc" },
-      { item: "Feuilles de combava", qty: "4 pièces" },
-      { item: "Oignons", qty: "2 pièces" },
-      { item: "Gousses d'ail", qty: "2 pièces" },
-      { item: "Sauce soja", qty: "6 cs" },
-      { item: "Huile de tournesol", qty: "2 cs" },
-      { item: "Sucre de coco", qty: "2 cc" },
-      { item: "Lait de coco", qty: "40 cl" },
-      { item: "Gingembre frais", qty: "5 cm" },
-      { item: "Petits pois surgelés", qty: "150 g" },
-      { item: "Lentilles corail", qty: "4 cs" },
+      { item: "Crevettes crues", qty: "16 à 24 pièces" }, { item: "Pâte de curry vert", qty: "2–3 cc" },
+      { item: "Feuilles de combava", qty: "4 pièces" }, { item: "Oignons", qty: "2 pièces" },
+      { item: "Gousses d'ail", qty: "2 pièces" }, { item: "Sauce soja", qty: "6 cs" },
+      { item: "Huile de tournesol", qty: "2 cs" }, { item: "Sucre de coco", qty: "2 cc" },
+      { item: "Lait de coco", qty: "40 cl" }, { item: "Gingembre frais", qty: "5 cm" },
+      { item: "Petits pois surgelés", qty: "150 g" }, { item: "Lentilles corail", qty: "4 cs" },
       { item: "Coriandre fraîche", qty: "quelques brins" },
     ],
     steps: [
       { num: 1, title: "La préparation", desc: "Décortiquez les crevettes. Coupez les oignons en fines lamelles. Hachez l'ail. Râpez le gingembre. Ciselez les feuilles de combava." },
-      { num: 2, title: "La base curry", desc: "Dans une poêle chaude, faites griller la pâte de curry. Ajoutez 3 cs de sauce soja et l'huile, laissez cuire 1 min, puis ajoutez les oignons et baissez le feu. Dès que les oignons commencent à dorer, ajoutez le reste de sauce soja et le sucre de coco, puis faites caraméliser 4 min à feu doux." },
-      { num: 3, title: "Les crevettes & la sauce", desc: "Mettez les crevettes dans la poêle et faites-les revenir 5 min. Ajoutez l'ail, versez le lait de coco, déposez les feuilles de combava ciselées et le gingembre râpé. Ajoutez les petits pois et les lentilles, mélangez, puis couvrez. Laissez mijoter 20 min à feu doux." },
+      { num: 2, title: "La base curry", desc: "Dans une poêle chaude, faites griller la pâte de curry. Ajoutez 3 cs de sauce soja et l'huile, laissez cuire 1 min, puis ajoutez les oignons et baissez le feu. Dès que les oignons dorent, ajoutez le reste de sauce soja et le sucre de coco, puis caramélisez 4 min à feu doux." },
+      { num: 3, title: "Les crevettes & la sauce", desc: "Mettez les crevettes dans la poêle et faites-les revenir 5 min. Ajoutez l'ail, versez le lait de coco, déposez les feuilles de combava et le gingembre râpé. Ajoutez les petits pois et les lentilles, couvrez. Laissez mijoter 20 min à feu doux." },
       { num: 4, title: "Dressage", desc: "Parsemez de coriandre ciselée et dégustez en plat unique ou avec du riz. Attention, la pâte de curry vert est très épicée — ajustez la quantité selon votre tolérance !" },
     ],
   },
@@ -397,14 +378,10 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c7?w=600&q=80",
     tags: ["Poulet", "Wok", "Rapide"],
     ingredients: [
-      { item: "Blancs de poulet", qty: "400 g" },
-      { item: "Curry en poudre", qty: "1 cs" },
-      { item: "Noix de cajou non salées", qty: "100 g" },
-      { item: "Fécule de maïs", qty: "2 cs" },
-      { item: "Oignon", qty: "1 pièce" },
-      { item: "Champignons de Paris", qty: "250 g" },
-      { item: "Huile de tournesol", qty: "2 cs" },
-      { item: "Sauce soja", qty: "2 cs" },
+      { item: "Blancs de poulet", qty: "400 g" }, { item: "Curry en poudre", qty: "1 cs" },
+      { item: "Noix de cajou non salées", qty: "100 g" }, { item: "Fécule de maïs", qty: "2 cs" },
+      { item: "Oignon", qty: "1 pièce" }, { item: "Champignons de Paris", qty: "250 g" },
+      { item: "Huile de tournesol", qty: "2 cs" }, { item: "Sauce soja", qty: "2 cs" },
       { item: "Cives ou oignons de printemps", qty: "2 pièces" },
     ],
     steps: [
@@ -422,24 +399,18 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
     tags: ["Salade", "Levantine", "Estivale"],
     ingredients: [
-      { item: "Halloumi", qty: "200 g" },
-      { item: "Roquette", qty: "1 sachet" },
-      { item: "Pois chiches égouttés", qty: "200 g" },
-      { item: "Bresaola", qty: "6 tranches" },
-      { item: "Concombre", qty: "1 pièce" },
-      { item: "Tomates séchées", qty: "6 pièces" },
-      { item: "Pistaches ou pignons", qty: "30 g" },
-      { item: "Huile d'olive (vinaigrette)", qty: "3 cs" },
-      { item: "Citron (jus)", qty: "1 pièce" },
-      { item: "Zaatar", qty: "2 cs" },
+      { item: "Halloumi", qty: "200 g" }, { item: "Roquette", qty: "1 sachet" },
+      { item: "Pois chiches égouttés", qty: "200 g" }, { item: "Bresaola", qty: "6 tranches" },
+      { item: "Concombre", qty: "1 pièce" }, { item: "Tomates séchées", qty: "6 pièces" },
+      { item: "Pistaches ou pignons", qty: "30 g" }, { item: "Huile d'olive (vinaigrette)", qty: "3 cs" },
+      { item: "Citron (jus)", qty: "1 pièce" }, { item: "Zaatar", qty: "2 cs" },
       { item: "Miel châtaigne ou lavande", qty: "1 cc + ½ cc" },
-      { item: "Ail en poudre", qty: "1 cc" },
-      { item: "Huile d'olive (halloumi)", qty: "1 cs" },
+      { item: "Ail en poudre", qty: "1 cc" }, { item: "Huile d'olive (halloumi)", qty: "1 cs" },
     ],
     steps: [
       { num: 1, title: "La vinaigrette zaatar", desc: "Dans un grand saladier, mélanger l'huile d'olive et le jus de citron. Ajouter le zaatar, 1 cc de miel et l'ail en poudre. Fouetter jusqu'à obtenir une vinaigrette homogène." },
-      { num: 2, title: "Composer la salade", desc: "Couper le concombre en demi-lunes. Ajouter dans le saladier avec les tomates séchées, la roquette, les pistaches (ou pignons), les pois chiches et la bresaola. Mélanger délicatement pour bien enrober de vinaigrette." },
-      { num: 3, title: "Griller le halloumi", desc: "Couper le halloumi en tranches épaisses. Faire chauffer l'huile dans une poêle à feu vif. Cuire 2 à 3 min de chaque côté jusqu'à belle dorure. Verser un filet de miel (½ cc) en fin de cuisson." },
+      { num: 2, title: "Composer la salade", desc: "Couper le concombre en demi-lunes. Ajouter dans le saladier avec les tomates séchées, la roquette, les pistaches, les pois chiches et la bresaola. Mélanger délicatement." },
+      { num: 3, title: "Griller le halloumi", desc: "Couper le halloumi en tranches épaisses. Faire chauffer l'huile dans une poêle à feu vif. Cuire 2 à 3 min de chaque côté jusqu'à belle dorure. Verser un filet de miel en fin de cuisson." },
       { num: 4, title: "Dresser et servir", desc: "Déposer le halloumi encore chaud sur la salade. Servir immédiatement pour conserver le côté fondant-croustillant du fromage." },
     ],
   },
@@ -451,25 +422,19 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
     tags: ["Pâtes", "Thon", "Crémeux"],
     ingredients: [
-      { item: "Linguine", qty: "200–250 g" },
-      { item: "Thon en boîte", qty: "1 boîte" },
+      { item: "Linguine", qty: "200–250 g" }, { item: "Thon en boîte", qty: "1 boîte" },
       { item: "Steak de thon frais (optionnel)", qty: "1 pièce" },
-      { item: "Oignon rouge", qty: "½ pièce" },
-      { item: "Gousses d'ail", qty: "2–3 pièces" },
-      { item: "Concentré de tomate", qty: "1 cs" },
-      { item: "Crème liquide entière", qty: "20 cl" },
-      { item: "Olives vertes dénoyautées", qty: "1 poignée" },
-      { item: "Câpres", qty: "1 cs" },
-      { item: "Jus de citron", qty: "½ citron" },
-      { item: "Persil frais", qty: "quelques brins" },
-      { item: "Huile d'olive", qty: "selon goût" },
-      { item: "Sel, poivre", qty: "selon goût" },
+      { item: "Oignon rouge", qty: "½ pièce" }, { item: "Gousses d'ail", qty: "2–3 pièces" },
+      { item: "Concentré de tomate", qty: "1 cs" }, { item: "Crème liquide entière", qty: "20 cl" },
+      { item: "Olives vertes dénoyautées", qty: "1 poignée" }, { item: "Câpres", qty: "1 cs" },
+      { item: "Jus de citron", qty: "½ citron" }, { item: "Persil frais", qty: "quelques brins" },
+      { item: "Huile d'olive", qty: "selon goût" }, { item: "Sel, poivre", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Les pâtes", desc: "Faites cuire les linguine dans une grande quantité d'eau salée selon les indications du paquet. Avant de les égoutter, gardez une louche d'eau de cuisson — elle sera précieuse pour la sauce." },
-      { num: 2, title: "La base", desc: "Dans une poêle, faites revenir l'oignon rouge finement haché dans un filet d'huile d'olive jusqu'à ce qu'il devienne translucide. Ajoutez l'ail haché et le concentré de tomate, faites revenir 1 minute supplémentaire." },
-      { num: 3, title: "La sauce crémeuse", desc: "Versez la crème liquide, ajoutez les olives et les câpres. Laissez mijoter à feu doux 5 minutes. Si vous utilisez du thon frais, saisissez-le rapidement à la poêle (1–2 min de chaque côté) puis émiettez-le grossièrement avant de l'ajouter à la sauce. Incorporez ensuite le thon en boîte égoutté." },
-      { num: 4, title: "Le grand final", desc: "Ajoutez les pâtes directement dans la sauce avec un peu d'eau de cuisson pour bien les enrober. Mélangez. Hors du feu, ajoutez le jus de citron et le persil ciselé. Goûtez et ajustez sel et poivre. Servez immédiatement !" },
+      { num: 1, title: "Les pâtes", desc: "Faites cuire les linguine dans une grande quantité d'eau salée. Avant de les égoutter, gardez une louche d'eau de cuisson." },
+      { num: 2, title: "La base", desc: "Dans une poêle, faites revenir l'oignon rouge finement haché dans un filet d'huile d'olive jusqu'à translucide. Ajoutez l'ail haché et le concentré de tomate, faites revenir 1 minute." },
+      { num: 3, title: "La sauce crémeuse", desc: "Versez la crème liquide, ajoutez les olives et les câpres. Laissez mijoter 5 minutes. Si vous utilisez du thon frais, saisissez-le 1–2 min de chaque côté puis émiettez-le. Incorporez le thon en boîte égoutté." },
+      { num: 4, title: "Le grand final", desc: "Ajoutez les pâtes dans la sauce avec un peu d'eau de cuisson. Mélangez. Hors du feu, ajoutez le jus de citron et le persil ciselé. Ajustez sel et poivre. Servez immédiatement !" },
     ],
   },
   {
@@ -480,31 +445,24 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&q=80",
     tags: ["Poulet", "Salade", "Classique"],
     ingredients: [
-      { item: "Sucrines", qty: "5 pièces" },
-      { item: "Filet de poulet", qty: "400 g" },
-      { item: "Parmesan en copeaux", qty: "150 g" },
-      { item: "Pain pour croûtons", qty: "100 g" },
-      { item: "Gousse d'ail", qty: "1 pièce" },
-      { item: "Huile de tournesol (cuisson)", qty: "1 cs" },
+      { item: "Sucrines", qty: "5 pièces" }, { item: "Filet de poulet", qty: "400 g" },
+      { item: "Parmesan en copeaux", qty: "150 g" }, { item: "Pain pour croûtons", qty: "100 g" },
+      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Huile de tournesol (cuisson)", qty: "1 cs" },
       { item: "Huile de tournesol (pain)", qty: "1 cc" },
-      { item: "Parmesan en poudre (sauce)", qty: "20 g" },
-      { item: "Anchois", qty: "10 g" },
-      { item: "Lait", qty: "70 ml" },
-      { item: "Crème liquide entière", qty: "30 g" },
-      { item: "Mayonnaise", qty: "60 g" },
-      { item: "Jus de citron", qty: "5 cl" },
+      { item: "Parmesan en poudre (sauce)", qty: "20 g" }, { item: "Anchois", qty: "10 g" },
+      { item: "Lait", qty: "70 ml" }, { item: "Crème liquide entière", qty: "30 g" },
+      { item: "Mayonnaise", qty: "60 g" }, { item: "Jus de citron", qty: "5 cl" },
       { item: "Vinaigre de xérès", qty: "1 cc" },
-      { item: "Gousse d'ail (sauce)", qty: "1 pièce" },
-      { item: "Huile d'olive (sauce)", qty: "1 cs" },
+      { item: "Gousse d'ail (sauce)", qty: "1 pièce" }, { item: "Huile d'olive (sauce)", qty: "1 cs" },
       { item: "Sel, poivre", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "Les sucrines", desc: "Enlevez la base blanche des sucrines, coupez-les en 4 dans la longueur, puis en 3 dans la largeur." },
-      { num: 2, title: "Les croûtons à l'ail", desc: "Mélangez la cuillerée à café d'huile de tournesol et l'ail ciselé finement. Frottez le pain avec la sauce ainsi obtenue. Salez puis taillez-le en petits dés pour obtenir des croûtons. Enfournez-les à 180°C pendant 7 minutes." },
-      { num: 3, title: "La sauce César", desc: "Mixez le lait, les anchois, l'ail, le vinaigre et l'huile d'olive. Ajoutez ensuite la crème, puis le parmesan en poudre, la mayonnaise, du sel, un tour de moulin à poivre et le jus de citron. La sauce peut paraître liquide au moment où vous terminez de la mixer mais elle va beaucoup s'épaissir." },
-      { num: 4, title: "Vérification", desc: "Vérifiez l'assaisonnement en goûtant (il faut toujours goûter quand on cuisine, c'est un devoir ET un plaisir)." },
-      { num: 5, title: "Le poulet", desc: "Faites cuire les filets 5 à 7 minutes dans une poêle bien chaude avec la cuillerée à soupe d'huile de tournesol, salez et poivrez. Taillez les filets en lamelles plutôt fines." },
-      { num: 6, title: "Dressage !", desc: "À vos marques ! Prêt ? Dressez ! Disposez les sucrines, les lamelles de poulet, la sauce onctueuse, parsemez de copeaux de parmesan et éparpillez les croûtons encore chauds !" },
+      { num: 2, title: "Les croûtons à l'ail", desc: "Mélangez la cuillerée à café d'huile de tournesol et l'ail ciselé finement. Frottez le pain avec la sauce. Salez puis taillez en petits dés pour obtenir des croûtons. Enfournez à 180°C pendant 7 minutes." },
+      { num: 3, title: "La sauce César", desc: "Mixez le lait, les anchois, l'ail, le vinaigre et l'huile d'olive. Ajoutez la crème, le parmesan en poudre, la mayonnaise, sel, poivre et le jus de citron. La sauce va s'épaissir en refroidissant." },
+      { num: 4, title: "Vérification", desc: "Vérifiez l'assaisonnement en goûtant." },
+      { num: 5, title: "Le poulet", desc: "Faites cuire les filets 5 à 7 minutes dans une poêle bien chaude avec l'huile de tournesol, salez et poivrez. Taillez en lamelles fines." },
+      { num: 6, title: "Dressage !", desc: "Disposez les sucrines, les lamelles de poulet, la sauce onctueuse, parsemez de copeaux de parmesan et éparpillez les croûtons encore chauds !" },
     ],
   },
   {
@@ -512,23 +470,19 @@ const dishes = [
     name: "Tataki de saumon & mangue fraîche",
     subtitle: "Riz japonais • Marinade miel & sésame",
     time: "30 min", servings: 4, difficulty: "Moyen", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
     tags: ["Saumon", "Japonais", "Marinade"],
     ingredients: [
-      { item: "Pavés de saumon", qty: "4 pièces" },
-      { item: "Riz japonais", qty: "280 g" },
-      { item: "Chair de mangue", qty: "240 g" },
-      { item: "Sauce soja sucrée", qty: "5 cs" },
-      { item: "Graines de sésame doré", qty: "selon goût" },
-      { item: "Basilic frais", qty: "1 botte" },
-      { item: "Miel d'acacia", qty: "2 cc" },
-      { item: "Citrons verts", qty: "2 pièces" },
+      { item: "Pavés de saumon", qty: "4 pièces" }, { item: "Riz japonais", qty: "280 g" },
+      { item: "Chair de mangue", qty: "240 g" }, { item: "Sauce soja sucrée", qty: "5 cs" },
+      { item: "Graines de sésame doré", qty: "selon goût" }, { item: "Basilic frais", qty: "1 botte" },
+      { item: "Miel d'acacia", qty: "2 cc" }, { item: "Citrons verts", qty: "2 pièces" },
       { item: "Huile de sésame", qty: "quelques gouttes" },
     ],
     steps: [
       { num: 1, title: "La marinade", desc: "Lavez et séchez le basilic. Réalisez la marinade en mélangeant la sauce soja sucrée, l'huile de sésame, le jus des citrons et le basilic. Mixez l'ensemble, puis faites-y mariner le saumon pendant 24 heures." },
-      { num: 2, title: "Le riz japonais", desc: "Rincez le riz japonais au moins 3 fois à l'eau claire. Égouttez et recouvrez-le avec environ 1,2 fois son volume d'eau (336 ml). Portez les moins boués en calcul mental à la casserole et posez-la sur un feu vif. Aux premiers bouillons, baissez à feu moyen et comptez 10 minutes. Quand il n'y a plus d'eau, éteignez le feu et laissez reposer à couvert 10 minutes." },
-      { num: 3, title: "Le tataki", desc: "Placez les pavés de saumon dans un plat et faites-les colorer au four 2 minutes à 210°C. Détaillez les tronçons en tranches fines façon tataki et parsemez les graines de sésame doré." },
+      { num: 2, title: "Le riz japonais", desc: "Rincez le riz japonais au moins 3 fois à l'eau claire. Égouttez et recouvrez avec environ 1,2 fois son volume d'eau (336 ml). Portez à ébullition, baissez à feu moyen 10 minutes. Éteignez le feu et laissez reposer à couvert 10 minutes." },
+      { num: 3, title: "Le tataki", desc: "Placez les pavés de saumon dans un plat et faites-les colorer au four 2 minutes à 210°C. Détaillez en tranches fines façon tataki et parsemez de graines de sésame doré." },
       { num: 4, title: "Dressage", desc: "Coupez la mangue en dés. Dressez le riz, le saumon, la mangue et accompagnez de sauce soja sucrée." },
     ],
   },
@@ -540,27 +494,21 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&q=80",
     tags: ["Bœuf", "Thaï", "Épicé"],
     ingredients: [
-      { item: "Bavettes de bœuf", qty: "2 pièces (~450 g)" },
-      { item: "Riz thaï", qty: "400 g" },
-      { item: "Poivron rouge", qty: "1 pièce" },
-      { item: "Échalotes", qty: "10 pièces" },
-      { item: "Basilic thaï", qty: "1 botte" },
-      { item: "Sauce soja salée", qty: "2 cs" },
-      { item: "Sauce d'huître", qty: "2 cc" },
-      { item: "Sauce sriracha", qty: "2 cc" },
-      { item: "Sauce nuoc-mâm", qty: "2 cs" },
-      { item: "Jus de citron vert", qty: "1 citron" },
-      { item: "Ail semoule", qty: "1 pincée" },
-      { item: "Cassonade", qty: "1 cc" },
+      { item: "Bavettes de bœuf", qty: "2 pièces (~450 g)" }, { item: "Riz thaï", qty: "400 g" },
+      { item: "Poivron rouge", qty: "1 pièce" }, { item: "Échalotes", qty: "10 pièces" },
+      { item: "Basilic thaï", qty: "1 botte" }, { item: "Sauce soja salée", qty: "2 cs" },
+      { item: "Sauce d'huître", qty: "2 cc" }, { item: "Sauce sriracha", qty: "2 cc" },
+      { item: "Sauce nuoc-mâm", qty: "2 cs" }, { item: "Jus de citron vert", qty: "1 citron" },
+      { item: "Ail semoule", qty: "1 pincée" }, { item: "Cassonade", qty: "1 cc" },
       { item: "Huile de tournesol", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "Les légumes", desc: "Épluchez et émincez les échalotes et le poivron rouge. Ciselez le basilic thaï." },
-      { num: 2, title: "Le bœuf", desc: "Émincez les bavettes en lamelles, puis faites-les sauter à la poêle dans un fond d'huile, mais pas trop car elles finiront de cuire avec la sauce." },
-      { num: 3, title: "Le riz", desc: "Faites cuire le riz thaï dans une fois et demie son volume d'eau, soit 600 ml, ou selon les conseils p.79." },
+      { num: 2, title: "Le bœuf", desc: "Émincez les bavettes en lamelles, puis faites-les sauter à la poêle dans un fond d'huile." },
+      { num: 3, title: "Le riz", desc: "Faites cuire le riz thaï dans une fois et demie son volume d'eau, soit 600 ml." },
       { num: 4, title: "Les légumes sautés", desc: "Faites revenir les échalotes et le poivron dans un trait d'huile. Ajoutez l'ail semoule et le sucre puis laissez colorer." },
-      { num: 5, title: "La sauce", desc: "Versez ensuite la sauce soja salée puis la sauce d'huître et la sauce sriracha. Laissez fondre les échalotes et le poivron dedans." },
-      { num: 6, title: "Le grand final", desc: "Ajoutez la viande reposée et son jus. Terminez votre plat en versant le nuoc-mâm et le jus de citron vert en fin de cuisson. Dressez de belles assiettes pour vous régaler !" },
+      { num: 5, title: "La sauce", desc: "Versez la sauce soja salée puis la sauce d'huître et la sauce sriracha. Laissez fondre les échalotes et le poivron dedans." },
+      { num: 6, title: "Le grand final", desc: "Ajoutez la viande reposée et son jus. Terminez en versant le nuoc-mâm et le jus de citron vert en fin de cuisson. Dressez de belles assiettes !" },
     ],
   },
   {
@@ -571,24 +519,19 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c7?w=600&q=80",
     tags: ["Poulet", "Crémeux", "Réconfortant"],
     ingredients: [
-      { item: "Filets de poulet fermier", qty: "4 pièces" },
-      { item: "Riz thaï", qty: "300 g" },
-      { item: "Lardons fumés", qty: "100 g" },
-      { item: "Champignons de Paris", qty: "170 g" },
-      { item: "Oignon jaune", qty: "1 pièce" },
-      { item: "Crème liquide entière", qty: "240 ml" },
-      { item: "Persil frais", qty: "½ botte" },
-      { item: "Huile de tournesol", qty: "selon goût" },
+      { item: "Filets de poulet fermier", qty: "4 pièces" }, { item: "Riz thaï", qty: "300 g" },
+      { item: "Lardons fumés", qty: "100 g" }, { item: "Champignons de Paris", qty: "170 g" },
+      { item: "Oignon jaune", qty: "1 pièce" }, { item: "Crème liquide entière", qty: "240 ml" },
+      { item: "Persil frais", qty: "½ botte" }, { item: "Huile de tournesol", qty: "selon goût" },
       { item: "Sel, poivre", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Les champignons", desc: "À l'aide d'un petit couteau, grattez les champignons pour les nettoyer sans les passer sous l'eau, puis émincez-les." },
+      { num: 1, title: "Les champignons", desc: "Grattez les champignons pour les nettoyer sans les passer sous l'eau, puis émincez-les." },
       { num: 2, title: "L'oignon", desc: "Détaillez grossièrement l'oignon." },
-      { num: 3, title: "Le poulet", desc: "Coupez les filets de poulet en 2 dans la longueur, puis en cubes de la taille d'une touche de clavier d'ordinateur." },
+      { num: 3, title: "Le poulet", desc: "Coupez les filets de poulet en 2 dans la longueur, puis en cubes." },
       { num: 4, title: "La poêle", desc: "Poêlez les lardons et le poulet avec un peu d'huile. Ajoutez l'oignon et les champignons, puis déglacez. Ajoutez la crème lorsque le tout se colore. Laissez réduire." },
-      { num: 5, title: "L'assaisonnement", desc: "Ajoutez un chouia de sel (les lardons sont déjà très salés) et un tour de moulin à poivre." },
-      { num: 6, title: "Le riz", desc: "Faites cuire le riz selon notre recette p.79, si vous ne la connaissez pas encore par cœur." },
-      { num: 7, title: "Dressage", desc: "Dans chaque assiette, disposez du riz, du mélange au poulet et ciselez du persil par-dessus. Servez chaud !" },
+      { num: 5, title: "L'assaisonnement", desc: "Ajoutez un peu de sel (les lardons sont déjà très salés) et un tour de moulin à poivre." },
+      { num: 6, title: "Le riz & dressage", desc: "Faites cuire le riz. Dans chaque assiette, disposez du riz, du mélange au poulet et ciselez du persil par-dessus. Servez chaud !" },
     ],
   },
   {
@@ -599,25 +542,19 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
     tags: ["Poisson", "Épicé", "Léger"],
     ingredients: [
-      { item: "Cabillaud (4 filets)", qty: "480 g" },
-      { item: "Riz thaï", qty: "270 g" },
-      { item: "Pousses d'épinard", qty: "45 g" },
-      { item: "Oignon rouge épluché", qty: "40 g" },
-      { item: "Concassée de tomates", qty: "350 g" },
-      { item: "Lait de coco", qty: "380 ml" },
-      { item: "Jus de citron vert", qty: "30 ml" },
-      { item: "Gingembre frais râpé", qty: "3,5 g" },
-      { item: "Pâte de curry vert", qty: "1 cc" },
-      { item: "Curry en poudre", qty: "1 pincée" },
-      { item: "Huile de tournesol", qty: "1 cs" },
-      { item: "Sel, poivre", qty: "selon goût" },
+      { item: "Cabillaud (4 filets)", qty: "480 g" }, { item: "Riz thaï", qty: "270 g" },
+      { item: "Pousses d'épinard", qty: "45 g" }, { item: "Oignon rouge épluché", qty: "40 g" },
+      { item: "Concassée de tomates", qty: "350 g" }, { item: "Lait de coco", qty: "380 ml" },
+      { item: "Jus de citron vert", qty: "30 ml" }, { item: "Gingembre frais râpé", qty: "3,5 g" },
+      { item: "Pâte de curry vert", qty: "1 cc" }, { item: "Curry en poudre", qty: "1 pincée" },
+      { item: "Huile de tournesol", qty: "1 cs" }, { item: "Sel, poivre", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "La découpe", desc: "Lavez les pousses d'épinard, ciselez-les. Émincez l'oignon rouge." },
-      { num: 2, title: "Le riz", desc: "Faites cuire le riz thaï comme on vous l'indique p.79." },
-      { num: 3, title: "La sauce", desc: "Faites revenir l'oignon et les épices dans un peu d'huile de tournesol. Déglacez avec le lait de coco et le jus de citron vert et laissez frémir environ 25 minutes. Vérifiez l'assaisonnement, puis ajoutez la concassée de tomates et mélangez." },
+      { num: 2, title: "Le riz", desc: "Faites cuire le riz thaï dans une casserole d'eau salée." },
+      { num: 3, title: "La sauce", desc: "Faites revenir l'oignon et les épices dans un peu d'huile de tournesol. Déglacez avec le lait de coco et le jus de citron vert et laissez frémir environ 25 minutes. Ajoutez la concassée de tomates et mélangez." },
       { num: 4, title: "Le cabillaud", desc: "Faites cuire le cabillaud dans le four préchauffé à 200°C pendant 4 à 6 minutes selon la puissance du four." },
-      { num: 5, title: "Dressage", desc: "Sur un lit de riz, déposez les pousses d'épinards et le poisson. Versez la sauce et léchez la cuillère, vous en avez le droit." },
+      { num: 5, title: "Dressage", desc: "Sur un lit de riz, déposez les pousses d'épinards et le poisson. Versez la sauce par-dessus." },
     ],
   },
   {
@@ -625,30 +562,23 @@ const dishes = [
     name: "Salade de bœuf thaï",
     subtitle: "Bavette • Pousses de soja • Sauce thaï",
     time: "20 min", servings: 2, difficulty: "Facile", calories: "420 kcal",
-    image: "https://fr.frije.com/content/recipes/185643/400-1.jpg",
+    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
     tags: ["Bœuf", "Thaï", "Salade"],
     ingredients: [
-      { item: "Bavette de bœuf", qty: "200 g" },
-      { item: "Pousses de soja", qty: "125 g" },
-      { item: "Poivron rouge", qty: "½ pièce" },
-      { item: "Chou rouge", qty: "¼ pièce" },
-      { item: "Coriandre fraîche", qty: "½ botte" },
-      { item: "Gingembre frais", qty: "5 g" },
-      { item: "Ail", qty: "½ gousse" },
-      { item: "Citron vert", qty: "½ pièce" },
-      { item: "Sauce soja salée", qty: "22 ml" },
-      { item: "Sauce nuoc-mâm", qty: "22 ml" },
-      { item: "Vinaigre de riz", qty: "20 ml" },
-      { item: "Huile de sésame", qty: "10 ml" },
-      { item: "Cassonade", qty: "1,5 pincée" },
-      { item: "Huile d'olive", qty: "1 filet" },
+      { item: "Bavette de bœuf", qty: "200 g" }, { item: "Pousses de soja", qty: "125 g" },
+      { item: "Poivron rouge", qty: "½ pièce" }, { item: "Chou rouge", qty: "¼ pièce" },
+      { item: "Coriandre fraîche", qty: "½ botte" }, { item: "Gingembre frais", qty: "5 g" },
+      { item: "Ail", qty: "½ gousse" }, { item: "Citron vert", qty: "½ pièce" },
+      { item: "Sauce soja salée", qty: "22 ml" }, { item: "Sauce nuoc-mâm", qty: "22 ml" },
+      { item: "Vinaigre de riz", qty: "20 ml" }, { item: "Huile de sésame", qty: "10 ml" },
+      { item: "Cassonade", qty: "1,5 pincée" }, { item: "Huile d'olive", qty: "1 filet" },
       { item: "Fleur de sel et poivre", qty: "selon goût" },
     ],
     steps: [
-      { num: 1, title: "Atelier découpe", desc: "Lavez tous les légumes. Émincez finement le chou rouge et le poivron. Hachez grossièrement la coriandre, tiges comprises. Râpez le gingembre. Épluchez puis écrasez l'ail. Mélangez les légumes et les pousses de soja dans un grand saladier." },
-      { num: 2, title: "Sauce thaï maison", desc: "Dans un mixeur ou un bol, ajoutez le gingembre, l'ail, le jus du citron vert, la sauce soja, le nuoc-mâm, le vinaigre de riz et l'huile de sésame. Ajoutez la cassonade. Mixez ou fouettez jusqu'à obtenir une sauce bien lisse. Goûtez et ajustez l'assaisonnement avec du poivre." },
-      { num: 3, title: "Le bœuf entre en scène", desc: "Faites chauffer un filet d'huile d'olive dans une grande poêle à feu vif. Faites cuire la bavette 2–3 min par face selon l'épaisseur. La viande doit être bien colorée à l'extérieur et encore tendre à cœur. Salez légèrement. Laissez reposer la viande 2 min avant de la couper en fines lamelles dans le sens de la fibre." },
-      { num: 4, title: "Le grand final", desc: "Répartissez la salade de légumes dans des assiettes creuses. Disposez les lamelles de bœuf par-dessus. Versez généreusement la sauce thaï. Parsemez du reste de coriandre. Servez immédiatement." },
+      { num: 1, title: "Atelier découpe", desc: "Lavez tous les légumes. Émincez finement le chou rouge et le poivron. Hachez grossièrement la coriandre. Râpez le gingembre. Écrasez l'ail. Mélangez les légumes et les pousses de soja dans un grand saladier." },
+      { num: 2, title: "Sauce thaï maison", desc: "Dans un mixeur ou un bol, ajoutez le gingembre, l'ail, le jus du citron vert, la sauce soja, le nuoc-mâm, le vinaigre de riz et l'huile de sésame. Ajoutez la cassonade. Mixez jusqu'à obtenir une sauce bien lisse." },
+      { num: 3, title: "Le bœuf entre en scène", desc: "Faites chauffer un filet d'huile d'olive dans une grande poêle à feu vif. Faites cuire la bavette 2–3 min par face. Salez légèrement. Laissez reposer 2 min avant de couper en fines lamelles dans le sens de la fibre." },
+      { num: 4, title: "Le grand final", desc: "Répartissez la salade dans des assiettes creuses. Disposez les lamelles de bœuf par-dessus. Versez généreusement la sauce thaï. Parsemez du reste de coriandre. Servez immédiatement." },
     ],
   },
   {
@@ -659,21 +589,17 @@ const dishes = [
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
     tags: ["Végétarien", "Frais", "Céréales"],
     ingredients: [
-      { item: "Quinoa blond", qty: "100 g" },
-      { item: "Boulgour", qty: "85 g" },
-      { item: "Feta", qty: "100 g" },
-      { item: "Grenade", qty: "1 pièce" },
-      { item: "Menthe fraîche", qty: "½ botte" },
-      { item: "Vinaigre de xérès", qty: "10 ml" },
-      { item: "Huile d'olive", qty: "2 cs" },
-      { item: "Huile de tournesol", qty: "1 cs" },
+      { item: "Quinoa blond", qty: "100 g" }, { item: "Boulgour", qty: "85 g" },
+      { item: "Feta", qty: "100 g" }, { item: "Grenade", qty: "1 pièce" },
+      { item: "Menthe fraîche", qty: "½ botte" }, { item: "Vinaigre de xérès", qty: "10 ml" },
+      { item: "Huile d'olive", qty: "2 cs" }, { item: "Huile de tournesol", qty: "1 cs" },
       { item: "Sel", qty: "selon goût" },
     ],
     steps: [
       { num: 1, title: "Herbes & fraîcheur", desc: "Lavez puis séchez la menthe. Effeuillez-la puis ciselez-la finement. Émiettez la feta dans un bol. Coupez la grenade en deux." },
-      { num: 2, title: "Les céréales en action", desc: "Faites cuire le quinoa dans une casserole d'eau bouillante salée pendant 10–12 min. Faites cuire le boulgour séparément selon les indications du paquet. Égouttez bien les deux céréales. Laissez-les refroidir quelques minutes." },
-      { num: 3, title: "Atelier grenade", desc: "Tapotez le dos des demi-grenades avec une cuillère en bois pour faire tomber les graines. Retirez les éventuelles membranes blanches. Mélangez les graines avec le quinoa et le boulgour." },
-      { num: 4, title: "Le grand mélange", desc: "Ajoutez la menthe ciselée et la feta émiettée aux céréales. Dans un petit bol, mélangez le vinaigre de xérès avec l'huile d'olive et l'huile de tournesol. Salez légèrement. Versez la vinaigrette sur la salade puis mélangez délicatement." },
+      { num: 2, title: "Les céréales en action", desc: "Faites cuire le quinoa dans une casserole d'eau bouillante salée pendant 10–12 min. Faites cuire le boulgour séparément selon les indications du paquet. Égouttez bien les deux céréales. Laissez refroidir quelques minutes." },
+      { num: 3, title: "Atelier grenade", desc: "Tapotez le dos des demi-grenades avec une cuillère en bois pour faire tomber les graines. Retirez les membranes blanches. Mélangez les graines avec le quinoa et le boulgour." },
+      { num: 4, title: "Le grand mélange", desc: "Ajoutez la menthe ciselée et la feta émiettée aux céréales. Mélangez le vinaigre de xérès avec l'huile d'olive et l'huile de tournesol. Salez légèrement. Versez la vinaigrette sur la salade et mélangez délicatement." },
     ],
   },
 ];
@@ -728,7 +654,6 @@ export default function App() {
         </div>
       </header>
 
-      {/* HOME */}
       {view === VIEWS.HOME && (
         <main style={S.main}>
           <div style={S.hero}>
@@ -742,7 +667,7 @@ export default function App() {
                 <div key={dish.id} style={S.cardWrap}>
                   <button style={S.card} onClick={() => openDish(dish)}>
                     <div style={S.cardImgWrap}>
-                      <img src={dish.image} alt={dish.name} style={S.cardImg} />
+                      <img src={dish.image} alt={dish.name} style={S.cardImg} onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"; }} />
                       <div style={S.cardOverlay} />
                       <div style={S.cardBadges}>{dish.tags.map((t) => <span key={t} style={S.badge}>{t}</span>)}</div>
                       {inCart && <div style={S.inCartBadge}>✓ Dans le panier</div>}
@@ -768,11 +693,10 @@ export default function App() {
         </main>
       )}
 
-      {/* RECIPE */}
       {view === VIEWS.RECIPE && selected && (
         <main style={S.main}>
           <div style={S.recipeHero}>
-            <img src={selected.image} alt={selected.name} style={S.recipeHeroImg} />
+            <img src={selected.image} alt={selected.name} style={S.recipeHeroImg} onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"; }} />
             <div style={S.recipeHeroGrad} />
             <div style={S.recipeHeroContent}>
               <h1 style={S.recipeTitle}>{selected.name}</h1>
@@ -787,8 +711,6 @@ export default function App() {
             <button style={{ ...S.addToCartBtn, width: "100%", marginBottom: 28, borderRadius: 12, borderTop: `1px solid ${C.border}`, ...(cart.includes(selected.id) ? S.addToCartBtnActive : {}) }} onClick={() => toggleCart(selected)}>
               {cart.includes(selected.id) ? "✓ Dans le panier — Retirer" : "+ Ajouter au panier"}
             </button>
-
-            {/* INGREDIENTS SECTION */}
             <h2 style={S.sectionTitle}>Ingrédients · {selected.servings} personnes</h2>
             <div style={S.ingredientGrid}>
               {selected.ingredients.map((ing, i) => (
@@ -798,7 +720,6 @@ export default function App() {
                 </div>
               ))}
             </div>
-
             <h2 style={{ ...S.sectionTitle, marginTop: 28 }}>Étapes de la recette</h2>
             <div style={S.progressBar}>
               {selected.steps.map((_, i) => (
@@ -828,7 +749,6 @@ export default function App() {
         </main>
       )}
 
-      {/* CART */}
       {view === VIEWS.CART && (
         <main style={S.main}>
           <div style={S.hero}>
@@ -846,7 +766,7 @@ export default function App() {
               <div style={S.cartList}>
                 {cartDishes.map((dish) => (
                   <div key={dish.id} style={S.cartItem}>
-                    <img src={dish.image} alt={dish.name} style={S.cartItemImg} />
+                    <img src={dish.image} alt={dish.name} style={S.cartItemImg} onError={(e) => { e.target.src = "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80"; }} />
                     <div style={S.cartItemInfo}>
                       <div style={S.cartItemName}>{dish.name}</div>
                       <div style={S.cartItemMeta}>⏱ {dish.time} · 👤 {dish.servings} pers. · {dish.ingredients.length} ingrédients</div>
@@ -865,7 +785,6 @@ export default function App() {
         </main>
       )}
 
-      {/* SHOPPING */}
       {view === VIEWS.SHOPPING && (
         <main style={S.main}>
           <div style={S.shoppingHeader}>
@@ -987,6 +906,7 @@ const S = {
   ingredientChip: { display: "flex", flexDirection: "column", background: C.card, border: `1px solid ${C.border}`, borderRadius: 10, padding: "10px 14px", gap: 2 },
   ingredientChipQty: { fontSize: 13, fontWeight: "bold", color: C.accent },
   ingredientChipName: { fontSize: 13, color: C.text },
+  ingredientList: { display: "flex", flexDirection: "column", gap: 2 },
   ingredientRow: { display: "flex", alignItems: "center", gap: 14, padding: "14px 16px", borderRadius: 12, background: C.card, border: `1px solid ${C.border}`, cursor: "pointer", textAlign: "left", transition: "opacity 0.2s" },
   ingredientChecked: { opacity: 0.4 },
   checkCircle: { width: 24, height: 24, borderRadius: "50%", border: `2px solid ${C.border}`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 12, color: "#fff", flexShrink: 0, transition: "all 0.2s" },
