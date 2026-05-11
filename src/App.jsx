@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 const dishes = [
   {
     id: 1,
-    name: "Saumon glacé miel & gingembre",
+    name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
     image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
