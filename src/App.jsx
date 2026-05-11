@@ -5,48 +5,261 @@ const dishes = [
     id: 1,
     name: "Saumon glacé miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
-    time: "25 min",
-    servings: 2,
-    difficulty: "Facile",
-    calories: "722 kcal",
+    time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
     image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
-      { item: "Riz", qty: "150 g" },
-      { item: "Filets de saumon avec peau", qty: "2 pièces" },
-      { item: "Courgette", qty: "2 pièces" },
-      { item: "Sauce asiatique sucrée", qty: "1 sachet" },
-      { item: "Purée de gingembre", qty: "1 sachet" },
-      { item: "Oignon", qty: "1 pièce" },
-      { item: "Gousse d'ail", qty: "1 pièce" },
-      { item: "Cube de bouillon de légumes", qty: "½ pièce" },
-      { item: "Graines de sésame", qty: "1 sachet" },
-      { item: "Miel", qty: "2 cc" },
-      { item: "Beurre", qty: "2 cs" },
-      { item: "Huile de tournesol", qty: "selon goût" },
+      { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
+      { item: "Courgette", qty: "2 pièces" }, { item: "Sauce asiatique sucrée", qty: "1 sachet" },
+      { item: "Purée de gingembre", qty: "1 sachet" }, { item: "Oignon", qty: "1 pièce" },
+      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Cube de bouillon de légumes", qty: "½ pièce" },
+      { item: "Graines de sésame", qty: "1 sachet" }, { item: "Miel", qty: "2 cc" },
+      { item: "Beurre", qty: "2 cs" }, { item: "Huile de tournesol", qty: "selon goût" },
       { item: "Poivre et sel", qty: "selon goût" },
     ],
     steps: [
-      {
-        num: 1,
-        title: "L'art de la découpe",
-        desc: "Veillez à bien respecter les quantités indiquées à gauche pour préparer votre recette. Préchauffez votre four à 200°C sur le mode grill. Émincez finement l'oignon. Portez une grande casserole d'eau salée à ébullition pour le riz. Râpez l'ail. Ciselez finement l'oignon. Coupez les courgettes en fines demi-lunes.",
-      },
-      {
-        num: 2,
-        title: "Le riz en ébullition",
-        desc: "Faites cuire le riz 12–14 min dans la casserole, ou jusqu'à ce qu'il soit tendre. Égouttez-le, ajoutez la moitié de la quantité indiquée de purée de gingembre (à ajuster selon votre goût) ainsi qu'une noisette de beurre et réservez-le à couvert jusqu'au service.",
-      },
-      {
-        num: 3,
-        title: "On enfourne le poisson",
-        desc: "Dans un bol, mélangez le reste de la purée de gingembre avec la sauce asiatique sucrée, 1 cc de miel et 1½ cs d'eau par personne. Badigeonnez avec un pinceau les filets de saumon avec un peu de la sauce, puis roulez-les de tous les côtés, sauf côté peau, dans les graines de sésame jusqu'à ce qu'ils soient enrobés. Placez les filets de saumon dans un plat à four. Enfournez-les 10–12 min, selon l'épaisseur des filets, ou jusqu'à ce qu'ils soient cuits à cœur.",
-      },
-      {
-        num: 4,
-        title: "Ding, c'est prêt !",
-        desc: "Dans une poêle, faites chauffer un filet d'huile de tournesol. Ajoutez l'oignon, les courgettes et l'ail et faites-les cuire 7–8 min à feu moyen, jusqu'à ce qu'elles deviennent fondantes. Remuez. Servez le riz et les courgettes dans les assiettes. Placez le saumon par-dessus et répartissez le reste de la sauce dans les assiettes.",
-      },
+      { num: 1, title: "L'art de la découpe", desc: "Préchauffez votre four à 200°C sur le mode grill. Émincez finement l'oignon. Portez une grande casserole d'eau salée à ébullition pour le riz. Râpez l'ail. Coupez les courgettes en fines demi-lunes." },
+      { num: 2, title: "Le riz en ébullition", desc: "Faites cuire le riz 12–14 min dans la casserole, ou jusqu'à ce qu'il soit tendre. Égouttez-le, ajoutez la moitié de la purée de gingembre ainsi qu'une noisette de beurre et réservez-le à couvert." },
+      { num: 3, title: "On enfourne le poisson", desc: "Mélangez le reste de la purée de gingembre avec la sauce asiatique sucrée, 1 cc de miel et 1½ cs d'eau par personne. Badigeonnez les filets de saumon, roulez-les dans les graines de sésame. Enfournez 10–12 min." },
+      { num: 4, title: "Ding, c'est prêt !", desc: "Faites chauffer un filet d'huile de tournesol. Ajoutez l'oignon, les courgettes et l'ail, faites cuire 7–8 min. Servez le riz, les courgettes et le saumon dans les assiettes avec le reste de la sauce." },
+    ],
+  },
+  {
+    id: 2,
+    name: "Nouilles sautées aux crevettes",
+    subtitle: "Carotte • Poireau • Sauce soja",
+    time: "25 min", servings: 2, difficulty: "Facile", calories: "632 kcal",
+    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+    tags: ["Crevettes", "Asiatique", "Rapide"],
+    ingredients: [
+      { item: "Nouilles de blé", qty: "1 paquet" }, { item: "Crevettes", qty: "1 paquet" },
+      { item: "Poireau", qty: "1 pièce" }, { item: "Oignon", qty: "1 pièce" },
+      { item: "Carotte", qty: "1 pièce" }, { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Gingembre frais", qty: "1 cm" }, { item: "Piment", qty: "¾ pièce" },
+      { item: "Coriandre", qty: "1 sachet" }, { item: "Sauce soja", qty: "1 sachet" },
+      { item: "Sauce asiatique sucrée", qty: "1 sachet" }, { item: "Huile de tournesol", qty: "1½ cs" },
+      { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Atelier découpe", desc: "Tamponnez les crevettes avec de l'essuie-tout. Faites chauffer un petit filet d'huile de tournesol dans une sauteuse. Faites-y cuire les crevettes des deux côtés 2–3 min, ou jusqu'à ce qu'elles soient bien colorées. Épluchez la carotte et coupez-la en fines demi-lunes. Coupez le poireau en deux dans l'épaisseur, lavez-le bien, puis coupez-le en fines demi-lunes. Ciselez finement l'oignon." },
+      { num: 2, title: "Ça chauffe !", desc: "Portez une grande casserole d'eau salée à ébullition pour les nouilles. Réservez les crevettes hors de la sauteuse, puis faites-y revenir la carotte, le poireau et l'oignon à couvert 7–10 min avec ¾ cs d'eau par personne. Ajoutez, râpez l'ail et le gingembre. Épicez avec le piment (ça pique !). Remuez régulièrement." },
+      { num: 3, title: "La sauce qui fait la diff", desc: "Faites cuire les nouilles dans l'eau bouillante 2–3 min. Égouttez-les et passez-les sous l'eau froide pour éviter qu'elles ne collent. Égouttez-les à nouveau. Ajoutez les crevettes, la moitié de la coriandre, la quantité indiquée de sauce soja et la sauce asiatique sucrée. Remuez quelques secondes." },
+      { num: 4, title: "Sur la route des saveurs", desc: "Incorporez les nouilles à la sauteuse et mélangez bien 2 min pour qu'elles s'imprègnent de la sauce. Servez-les dans des assiettes creuses. Saupoudrez le reste de coriandre et ajustez l'assaisonnement en poivre." },
+    ],
+  },
+  {
+    id: 3,
+    name: "Curry de poulet au lait de coco",
+    subtitle: "Riz • Cacahuètes • Citron",
+    time: "30 min", servings: 2, difficulty: "Moyen", calories: "3418 kcal",
+    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+    tags: ["Poulet", "Asiatique", "Épicé"],
+    ingredients: [
+      { item: "Riz", qty: "150 g" }, { item: "Blanc de poulet", qty: "1 paquet" },
+      { item: "Cacahuètes non salées", qty: "1 sachet" }, { item: "Curry vert", qty: "¾ sachet" },
+      { item: "Lait de coco", qty: "1 paquet" }, { item: "Sauce poisson", qty: "1 sachet" },
+      { item: "Citron", qty: "1 pièce" }, { item: "Oignon", qty: "1 pièce" },
+      { item: "Poireau", qty: "1 pièce" }, { item: "Gousse d'ail", qty: "2 pièces" },
+      { item: "Gingembre frais", qty: "1 cm" }, { item: "Coriandre", qty: "¼ sachet" },
+      { item: "Huile de tournesol", qty: "1 cs" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Opération découpe", desc: "Portez une grande casserole d'eau salée à ébullition pour le riz. Ciselez finement l'oignon. Râpez l'ail et le gingembre. Coupez le poireau en deux dans l'épaisseur, lavez-le bien et coupez-le en fines demi-lunes. Effeuillez la coriandre et ciselez-la selon votre goût. Dosez-le selon votre goût. Concassez les cacahuètes si vous le souhaitez." },
+      { num: 2, title: "Le riz passe à la casserole", desc: "Recoupez le poulet en plus petits dés si nécessaire. Faites cuire le riz 12–14 min dans la casserole, ou jusqu'à ce qu'il soit tendre. Égouttez-le et réservez-le à couvert." },
+      { num: 3, title: "Au tour du poulet", desc: "Pendant ce temps, faites chauffer un filet d'huile de tournesol à feu moyen-vif dans un wok ou une sauteuse. Faites-y dorer le poulet 3–4 min sur tous les côtés (il ne doit pas encore être totalement cuit à ce stade). Salez et poivrez. Réservez-le hors du wok, mais conservez ce dernier avec les jus de cuisson." },
+      { num: 4, title: "Le curry s'invite", desc: "Faites revenir l'oignon, l'ail, le gingembre et ¾ sachet de curry par personne dans le wok à feu moyen, en remuez et faites-le cuire 9–11 min de plus à couvert, ou jusqu'à ce qu'il soit bien réduit et qu'il n'y ait plus d'eau dans le wok. Versez un filet d'huile si les légumes accrochent." },
+      { num: 5, title: "Le secret est dans la sauce", desc: "Secouez le paquet de lait de coco afin que les éventuels grumeaux se décomposent. Ajoutez-le ainsi que ¼ cs de sauce poisson par personne (voir LASTUCE). Mélangez, puis couvrez et laissez mijoter 5 min, ou jusqu'à ce que le poulet soit cuit à cœur." },
+      { num: 6, title: "Direction la Thaïlande !", desc: "Servez le riz et le curry Thai au poulet dans des assiettes creuses. Disposez quelques gouttes au-dessus de son plat selon votre goût. Saupoudrez du tout de coriandre et de cacahuètes. Pressez ¼ citron par personne dans chaque assiette afin que chacun puisse en presser selon son goût." },
+    ],
+  },
+  {
+    id: 4,
+    name: "Quesadillas tex-mex",
+    subtitle: "Pommes de terre • Haricots • Guacamole",
+    time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
+    image: "https://images.unsplash.com/photo-1628191011227-522c7c1a765b?w=600&q=80",
+    tags: ["Végétarien", "Mexicain", "Gourmand"],
+    ingredients: [
+      { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
+      { item: "Chair de tomates", qty: "1 pièce" }, { item: "Oignon rouge", qty: "1 pièce" },
+      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Haricots de terre", qty: "1 pièce" },
+      { item: "Cheddar râpé", qty: "1 sachet" }, { item: "Épices mexicaines", qty: "1 sachet" },
+      { item: "Tortillas de blé complet", qty: "4 pièces" }, { item: "Guacamole", qty: "80 g" },
+      { item: "Origan séché", qty: "¼ sachet" }, { item: "Sucrine", qty: "1 sachet" },
+      { item: "Huile d'olive", qty: "2 cc" }, { item: "Vinaigre de vin rouge ou de cidre", qty: "3 cs" },
+      { item: "Sucre", qty: "2 cc" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Ça donne la frite !", desc: "Préchauffez le four à 220°C (200°C chaleur tournante). Épluchez et coupez les pommes de terre en frites entières (non épluchées), ou jusqu'à ce qu'elles soient tendres. Placez les frites sur une plaque recouverte de papier sulfurisé. Mélangez-les avec un filet d'huile d'olive, du sel et du poivre. Enfournez-les 25–30 min avec une gousse d'ail entière." },
+      { num: 2, title: "En rang d'oignon", desc: "Coupez l'oignon en très fines demi-lunes et placez-les dans un bol. Ajoutez une pincée de sel, puis 1 cc de vinaigre de vin rouge (ou vinaigre de cidre) par personne. Mélangez la chair de tomate avec, par personne : ½ cc de sucre, une pincée d'origan séché, du sel et du poivre." },
+      { num: 3, title: "Mélange gourmand", desc: "Dans un autre bol, mélangez la moitié des haricots rouges avec la moitié du cheddar râpé et, par personne : ½ sachet d'épices mexicaines et la moitié de la sauce tomate. Avec une fourchette, écrasez le mélange de sorte à former une pâte. Ajoutez le reste des haricots rouges sans les écraser et mélangez." },
+      { num: 4, title: "Un tour au four", desc: "Lorsqu'il reste 10 min de cuisson aux pommes de terre, écrasez la gousse d'ail pour en faire sortir la pulpe et mélangez-la aux frites. Disposez les tortillas sur une plaque recouverte de papier sulfurisé. Badigeonnez chaque tortilla d'un filet d'huile d'olive, répartissez la farce et appuyez doucement avec une spatule pour l'enfermer. Repliez chaque tortilla sur la farce et recouvrez-les avec le reste du cheddar râpé." },
+      { num: 5, title: "Cheese comme on aime", desc: "Enfournez les quesadillas 5–8 min, ou jusqu'à ce que le fromage ait fondu et que les tortillas soient dorées. Pendant ce temps, mélangez le guacamole avec un filet d'huile d'olive. Dans un saladier, coupez la sucrine en lanières. Salez et poivrez. Dans un saladier, préparez une vinaigrette en mélangeant un filet d'huile de tournesol, le vinaigre balsamique, du sel et du poivre." },
+      { num: 6, title: "Un pas vers le Mexique", desc: "Répartissez les quesadillas dans les assiettes. Servez avec les frites, la salade et le reste de sauce tomate." },
+    ],
+  },
+  {
+    id: 5,
+    name: "Fusilli pesto, lardons & champignons",
+    subtitle: "Crème • Poireau • Ail",
+    time: "25 min", servings: 2, difficulty: "Facile", calories: "2950 kcal",
+    image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    tags: ["Pâtes", "Forestier", "Crémeux"],
+    ingredients: [
+      { item: "Fusilli complets", qty: "1 paquet" }, { item: "Champignons de Paris", qty: "250 g" },
+      { item: "Lardons fumés sans nitrite", qty: "180 g" }, { item: "Poireau", qty: "1 pièce" },
+      { item: "Gousse d'ail", qty: "1 pièce" }, { item: "Pesto de champignons", qty: "1 sachet" },
+      { item: "Crème liquide", qty: "1 paquet" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Mission découpe activée !", desc: "Portez une grande casserole d'eau salée à ébullition pour les pâtes. Nettoyez les champignons et coupez-les en quartiers (voir l'ASTUCE). Lavez bien le poireau, puis coupez-le en fines rondelles, puis coupez-les en quartiers (voir LASTUCE). Ciselez l'ail." },
+      { num: 2, title: "Les pâtes au bain", desc: "Faites cuire les fusilli 12–15 min dans la casserole d'eau bouillante, ou jusqu'à ce qu'il soit tendre. Égouttez-les et réservez-les pour l'étape suivante. Réserver ¼ louche d'eau de cuisson par personne." },
+      { num: 3, title: "Ça chauffe !", desc: "Pendant ce temps, faites chauffer une sauteuse à feu moyen-vif. Ajoutez les fusilli, le pesto aux champignons et la crème. Faites-y revenir les lardons, le poireau, les champignons et l'ail 6–8 min. Remuez bien et faites chauffer 1–2 min, ou jusqu'à ce que le tout soit bien mélangé et les pâtes crémeuses." },
+      { num: 4, title: "Showtime !", desc: "Goûtez et ajustez l'assaisonnement si besoin (attention à ne pas vous brûler !). Servez aussitôt les fusilli au poireau et lardons dans les assiettes." },
+    ],
+  },
+  {
+    id: 6,
+    name: "Porc sauté sauce sriracha",
+    subtitle: "Riz • Concombre • Carotte • Mayo soja",
+    time: "25 min", servings: 2, difficulty: "Facile", calories: "3961 kcal",
+    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80",
+    tags: ["Porc", "Asiatique", "Piquant"],
+    ingredients: [
+      { item: "Riz", qty: "150 g" }, { item: "Chair à saucisse", qty: "1 paquet" },
+      { item: "Carotte", qty: "1 pièce" }, { item: "Concombre", qty: "1 pièce" },
+      { item: "Gingembre frais", qty: "1 cm" }, { item: "Citron", qty: "½ pièce" },
+      { item: "Sauce soja réduite en sel", qty: "20 ml" }, { item: "Sauce sriracha", qty: "1 sachet" },
+      { item: "Mayonnaise", qty: "1 sachet" }, { item: "Sucre", qty: "1 cc" },
+      { item: "Huile de tournesol", qty: "1 cs" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Casserole en action", desc: "Portez une casserole d'eau salée à ébullition. Faites cuire le riz dans la casserole 12–14 min, ou jusqu'à ce qu'il soit tendre. Lavez bien le citron et prélevez-en le zeste avec une râpe fine. Coupez-le en quartiers." },
+      { num: 2, title: "Atelier découpe", desc: "Pendant ce temps, coupez le concombre en fines demi-lunes. Épluchez et râpez la carotte avec une râpe à gros grains. Dans un bol, ajoutez le concombre, la carotte, le gingembre, le jus de ¼ citron par personne, du sel et du poivre. Dosez-le selon votre goût. Mélangez et réservez." },
+      { num: 3, title: "Le porc y passe", desc: "Faites chauffer un filet d'huile de tournesol dans une sauteuse à feu moyen-vif. Faites-y cuire la chair à saucisse la sriracha (ça pique !). Dosez-la selon votre goût et ½ cc de sucre par personne. Faites revenir 1–2 min, ou jusqu'à ce que la sauce devienne légèrement sirupeuse. Salez et poivrez." },
+      { num: 4, title: "Le grand final", desc: "Mélangez la mayonnaise avec le reste de la sauce soja dans un petit bol. Servez le riz dans des assiettes creuses. Servez le porc à côté. Répartissez la salade de crudités à côté. Nappez la mayo au soja par-dessus." },
+    ],
+  },
+  {
+    id: 7,
+    name: "Keftas d'agneau & semoule",
+    subtitle: "Carottes • Épinards • Yaourt grec",
+    time: "30 min", servings: 2, difficulty: "Moyen", calories: "2799 kcal",
+    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80",
+    tags: ["Agneau", "Moyen-Orient", "Épicé"],
+    ingredients: [
+      { item: "Viande hachée au bœuf", qty: "150 g" }, { item: "Mélange d'épices du Moyen-Orient", qty: "1 sachet" },
+      { item: "Épinards", qty: "1 paquet" }, { item: "Semoule", qty: "1 pot" },
+      { item: "Yaourt à la grecque", qty: "1 pot" }, { item: "Carotte", qty: "1 pièce" },
+      { item: "Oignon", qty: "1 pièce" }, { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Menthe", qty: "1 pièce" }, { item: "Citron", qty: "1 pièce" },
+      { item: "Cube de bouillon de bœuf", qty: "1 cc" }, { item: "Lait", qty: "1 cc" },
+      { item: "Huile d'olive", qty: "1 cc" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Les carottes sont cuites", desc: "Épluchez et coupez la carotte en fines demi-lunes. Ciselez finement l'oignon. Faites chauffer un petit filet d'huile d'olive dans une grande sauteuse à feu moyen. Faites-y revenir la carotte et les ⅔ de l'oignon (gardez le reste pour les keftas) 10–15 min avec un filet d'eau pour qu'ils commencent à devenir fondants." },
+      { num: 2, title: "Keftas en construction", desc: "Lavez bien le citron et prélevez-en le zeste avec une râpe fine, puis coupez-le en quartiers. Effeuillez et ciselez l'ail. Dans un saladier, mélangez le bœuf avec le reste des épices du Moyen-Orient par personne, la moitié de l'ail, ⅓ de la menthe, du zeste de citron (ça pique), une pincée d'origan, du sel, du poivre. Dosez-les selon votre goût. Formez 3 boulettes allongées et légèrement aplaties par personne ; tassez-les bien." },
+      { num: 3, title: "Hop, à la poêle !", desc: "Faites chauffer un petit filet d'huile de tournesol dans une petite poêle à feu moyen-vif. Faites-y revenir les keftas 4–5 min de chaque côté, ou jusqu'à ce qu'ils soient cuits à cœur (conservez le jus de cuisson)." },
+      { num: 4, title: "La cuisson, la suite", desc: "Dans une casserole, ajoutez par personne : ¼ de cube de cuisson des légumes, ¼ de la menthe et 1 cc d'eau. Portez à ébullition. Après avoir lavé les mains, ajoutez ½ reste de l'ail, ⅔ des épices du Moyen-Orient, déchirez-les avec vos mains par-dessus. Baissez le feu sur doux, puis couvrez et laissez cuire 8–10 min. Salez et poivrez et ajustez." },
+      { num: 5, title: "Plouf dans la casserole !", desc: "Retirez le bouillon du feu et ajoutez-y la semoule. Couvrez et laissez reposer jusqu'à ce que l'eau soit bien absorbée. Égrenez-la avec une fourchette, et assaisonnez-la avec le jus de citron (selon votre goût), quelques gouttes de jus de citron des légumes cuits, quelques gouttes de jus de cuisson des keftas, de la menthe, du sel et du poivre." },
+      { num: 6, title: "Sur la route des saveurs", desc: "Dans un petit bol, mélangez le yaourt avec quelques gouttes de jus de citron et une pincée de menthe. Servez la semoule dans des assiettes creuses. Disposez les frites (légumes), les keftas. Saupoudrez du tout de persil haché. Ajoutez le lait ainsi que la sauce ravigote et le tout dessus. Arrosez de le tour de sauce." },
+    ],
+  },
+  {
+    id: 8,
+    name: "Lieu noir, purée carotte & lardons",
+    subtitle: "Pommes de terre • Sauce ravigote • Persil",
+    time: "35 min", servings: 2, difficulty: "Moyen", calories: "2264 kcal",
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80",
+    tags: ["Poisson", "Français", "Réconfortant"],
+    ingredients: [
+      { item: "Tranches de poitrine fumée", qty: "1 paquet" }, { item: "Filet de lieu noir", qty: "200 g" },
+      { item: "Pommes de terre", qty: "125 g" }, { item: "Carotte", qty: "2 pièces" },
+      { item: "Persil", qty: "1 sachet" }, { item: "Paprika en poudre", qty: "¾ sachet" },
+      { item: "Salade", qty: "1 sachet" }, { item: "Sauce ravigote", qty: "1 sachet" },
+      { item: "Huile d'olive", qty: "2 cc" }, { item: "Vinaigre balsamique noir", qty: "1 cc" },
+      { item: "Beurre", qty: "2 cs" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Plouf, dans l'eau bouillante !", desc: "Préchauffez le four à 200°C (180°C chaleur tournante). Épluchez et coupez les carottes et les pommes de terre en tronçons de 1–2 cm. Placez-les dans une casserole, versez de l'eau à mi-hauteur et faites cuire 15–17 min, ou jusqu'à ce que la pointe d'un couteau y rentre facilement. Réservez un peu d'eau de cuisson, puis égouttez-les." },
+      { num: 2, title: "Session bronzage", desc: "Séparez les tranches de poitrine fumée et disposez-les sur une plaque recouverte de papier sulfurisé. Enfournez-les 8–10 min, ou jusqu'à ce qu'elles soient bien croustillantes. Effeuillez la poitrine fumée grillée, puis coupez-la en petites lanières." },
+      { num: 3, title: "Un A/R pour le poisson", desc: "Épongez le lieu avec de l'essuie-tout, puis assaisonnez-le d'une pincée de paprika et poivrez-le généreusement. Lorsqu'il reste 5 min de chaque côté, faites chauffer une poêle à feu moyen-vif avec un filet d'huile d'olive et faites-y cuire le lieu 1–2 min de chaque côté, ou jusqu'à ce qu'il soit cuit à cœur." },
+      { num: 4, title: "L'art de la vinaigrette", desc: "En attendant, dans un saladier, faites une vinaigrette en mélangeant un filet de vinaigre balsamique et un généreux filet d'huile d'olive. Salez et poivrez. Ajoutez la salade au moment de servir." },
+      { num: 5, title: "Purée en cours", desc: "Écrasez les pommes de terre et les carottes avec un presse-purée. Ajoutez une généreuse noix de beurre. Mélangez et ajustez légèrement, poivrez et mélangez. Si besoin, ajoutez également un peu de liquide de cuisson pour l'onctuosité." },
+      { num: 6, title: "Miam, miam !", desc: "Servez la purée dans les assiettes. Saupoudrez le poisson de chips de lard et de persil ciselé. Ajoutez le lieu ainsi que la sauce ravigote et la salade dessus." },
+    ],
+  },
+  {
+    id: 9,
+    name: "Gratin tortelloni poireaux & cantal",
+    subtitle: "Crème • Gouda • Thym",
+    time: "30 min", servings: 2, difficulty: "Facile", calories: "3615 kcal",
+    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
+    tags: ["Pâtes", "Gratiné", "Réconfortant"],
+    ingredients: [
+      { item: "Tortelloni ricotta-épinards", qty: "300 g" }, { item: "Poireau", qty: "1½ pièce" },
+      { item: "Gouda râpé", qty: "¼ sachet" }, { item: "Cantal râpé", qty: "1 pièce" },
+      { item: "Crème liquide (AOP)", qty: "1 sachet" }, { item: "Persil", qty: "1 paquet" },
+      { item: "Oignon", qty: "1 pièce" }, { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Thym séché", qty: "¼ sachet" }, { item: "Moutarde", qty: "1 cs" },
+      { item: "Vinaigre de vin blanc", qty: "1 cc" }, { item: "Beurre", qty: "1 cs" },
+      { item: "Cube de bouillon de légumes", qty: "½ pièce" }, { item: "Huile d'olive", qty: "1 cs" },
+      { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Opération découpe", desc: "Préchauffez le four à 220°C sur le mode grill. Effeuillez et ciselez finement le persil. Lavez-les bien, coupez les poireaux en deux dans la longueur, puis coupez-les en fines demi-lunes. Ciselez l'ail et l'oignon." },
+      { num: 2, title: "On fond pour les poireaux", desc: "Faites fondre une noix de beurre dans une sauteuse à feu moyen-vif. Faites-y revenir l'oignon, l'ail et le poireau 2 min. Déglacez avec l'eau et ¼ cs de vinaigre de vin blanc par personne ; ½ cs de moutarde, par personne. Versez le l'eau à mi-hauteur et ajoutez, par personne : ¼ cube de bouillon et ¾ cc de thym séché. Salez et poivrez. Couvrez et prolongez la cuisson de 5–7 min. Remuez régulièrement." },
+      { num: 3, title: "Touche gourmande", desc: "Une fois le poireau cuit, ajoutez la crème, le gouda et du persil à la sauteuse. Mélangez jusqu'à ce que l'ensemble soit homogène. Si le cantal se défait trop au moment de le râper, vous pouvez le tailler en petits cubes." },
+      { num: 4, title: "Dans l'eau bouillante", desc: "Portez une casserole d'eau salée à ébullition. Faites-y cuire les tortelloni 1 min. Égouttez-les." },
+      { num: 5, title: "Hop, au four !", desc: "Dans un plat à four préalablement huilé, disposez la moitié de la fondue de poireau, puis les tortelloni et terminez avec le reste de fondue de poireau. Recouvrez le tout de cantal. Enfournez 10–12 min dans la partie haute du four, ou jusqu'à ce que le fromage soit gratiné." },
+      { num: 6, title: "Chaud devant !", desc: "Servez le gratin de tortelloni dans les assiettes. Saupoudrez du reste de persil." },
+    ],
+  },
+  {
+    id: 10,
+    name: "Poulet pané croustillant & brocoli",
+    subtitle: "Pommes de terre • Chapelure panko • Salade",
+    time: "35 min", servings: 2, difficulty: "Facile", calories: "4021 kcal",
+    image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80",
+    tags: ["Poulet", "Croustillant", "Équilibré"],
+    ingredients: [
+      { item: "Filet de poulet", qty: "500 g" }, { item: "Brocoli", qty: "1 pièce" },
+      { item: "Pommes de terre", qty: "5 brin(s)" }, { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Romarin", qty: "1 sachet" }, { item: "Chapelure panko", qty: "1 sachet" },
+      { item: "Mayonnaise", qty: "1 sachet" }, { item: "Moutarde", qty: "1 cs" },
+      { item: "Œuf", qty: "1 pièce" }, { item: "Farine", qty: "3 cs" },
+      { item: "Salade", qty: "1 sachet" }, { item: "Huile de tournesol", qty: "1 cs" },
+      { item: "Vinaigre balsamique blanc ou de riz", qty: "1 cc" }, { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Hop, en cuisine !", desc: "Portez une casserole d'eau salée à ébullition. Épluchez et coupez les pommes de terre en 4, voire en 3 morceaux. Coupez le brocoli en 2, voire en 3 morceaux. Effeuillez le romarin, puis hachez-le très finement. Ciselez l'ail. Posez votre main à plat sur le poulet et coupez-le horizontalement pour obtenir deux tranches fines." },
+      { num: 2, title: "Mission cuisson activée", desc: "Faites cuire les pommes de terre dans la casserole d'eau bouillante 8–10 min. Ajoutez-y le brocoli et faites cuire le tout 6–10 min de plus à la pointe d'un couteau, ou jusqu'à ce que les légumes soient tendres. Égouttez-les et faites-les refroidir jusqu'au moment de servir, réservez-les à couvert." },
+      { num: 3, title: "Enrobage doré", desc: "Pendant ce temps, dans une assiette creuse, mélangez la farine avec du sel. Dans une deuxième assiette, battez l'œuf et, dans une troisième assiette, mélangez la chapelure panko et une généreuse pincée de sel, puis dans un bol, mélangez le romarin, la chapelure panko et une généreuse pincée de sel. Trempez successivement le poulet dans la farine, puis dans l'œuf et terminez dans la chapelure panko jusqu'à ce qu'il soit entièrement recouvert." },
+      { num: 4, title: "Tenue crousti-chic", desc: "Faites chauffer environ 2 mm d'huile de tournesol dans une grande poêle ou une grande quantité suffisante pour en recouvrir le fond. Lorsque l'huile est chaude, faites-y cuire le poulet 2–4 min de chaque côté, ou jusqu'à ce qu'il soit doré et cuit à cœur. Réservez-le sur une assiette recouverte d'essuie-tout." },
+      { num: 5, title: "L'art de l'assaisonnement", desc: "Dans un saladier, mélangez la moutarde (voir LASTUCE) avec la mayonnaise (voir LASTUCE), un filet d'huile d'olive et de vinaigre balsamique, du sel et du poivre. Ajoutez les pommes de terre, le brocoli et la salade. Mélangez délicatement." },
+      { num: 6, title: "On dresse, on savoure !", desc: "Servez la salade dans les assiettes. Placez le poulet pané à côté." },
+    ],
+  },
+  {
+    id: 11,
+    name: "Ravioli gratinés aubergine & ricotta",
+    subtitle: "Tomates concassées • Pecorino • Basilic",
+    time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
+    tags: ["Végétarien", "Italien", "Gratiné"],
+    ingredients: [
+      { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
+      { item: "Ricotta", qty: "¾ pot" }, { item: "Crème de basilic", qty: "1 pot" },
+      { item: "Chair de tomates", qty: "300 g" }, { item: "Pecorino Romano AOP râpé", qty: "¼ sachet" },
+      { item: "Girasoli tomate & mozzarella", qty: "1 paquet" }, { item: "Origan séché", qty: "1 sachet" },
+      { item: "Sucre", qty: "1 cc" }, { item: "Huile d'olive", qty: "2 cs" },
+      { item: "Poivre et sel", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "À vos couteaux !", desc: "Préchauffez le four à 230°C (210°C chaleur tournante) sur le mode grill. Coupez l'aubergine en petits dés de 1 cm." },
+      { num: 2, title: "On enfourne", desc: "Dans un plat à four, mélangez l'aubergine avec un généreux filet d'huile d'olive, du sel et du poivre. Enfournez-les 20–25 min dans la partie haute du four, ou jusqu'à ce que les aubergines soient dorées et fondantes. Prolongez la cuisson si nécessaire." },
+      { num: 3, title: "Ça gratine", desc: "Mélangez ¾ pot de ricotta par personne avec la moitié de la crème de basilic dans un petit bol. Poivrez. Une fois les aubergines cuites, sortez-les du four (attention à ne pas vous brûler !), ajoutez-y les raviolis cuits, ¾ sachet d'origan séché, et 2 cs d'eau. Mélangez ; puis ajoutez-y les tomates concassées et, par personne : ¼ cc de sucre. Puis ajoutez-y les raviolis et recouvrez-les du tout de pecorino. Prolongez la cuisson de 5–6 min, ou jusqu'à ce que le tout de pecorino et les raviolis cuits." },
+      { num: 4, title: "Miam, miam !", desc: "Servez les ravioli gratinés dans les assiettes. Versez le restant de crème de basilic par-dessus. Dégustez sans attendre." },
     ],
   },
 ];
@@ -58,11 +271,8 @@ function mergeIngredients(cartDishes) {
   cartDishes.forEach((dish) => {
     dish.ingredients.forEach(({ item, qty }) => {
       const key = item.toLowerCase().trim();
-      if (map[key]) {
-        map[key].sources.push({ dish: dish.name, qty });
-      } else {
-        map[key] = { item, qty, sources: [{ dish: dish.name, qty }] };
-      }
+      if (map[key]) { map[key].sources.push({ dish: dish.name, qty }); }
+      else { map[key] = { item, qty, sources: [{ dish: dish.name, qty }] }; }
     });
   });
   return Object.values(map);
@@ -80,52 +290,26 @@ export default function App() {
   const cartCount = cart.length;
   const checkedCount = Object.values(checked).filter(Boolean).length;
 
-  const toggleCart = (dish) => {
-    setCart((prev) =>
-      prev.includes(dish.id) ? prev.filter((id) => id !== dish.id) : [...prev, dish.id]
-    );
-  };
-
-  const openDish = (dish) => {
-    setSelected(dish);
-    setActiveStep(0);
-    setView(VIEWS.RECIPE);
-  };
-
+  const toggleCart = (dish) => setCart((p) => p.includes(dish.id) ? p.filter((id) => id !== dish.id) : [...p, dish.id]);
+  const openDish = (dish) => { setSelected(dish); setActiveStep(0); setView(VIEWS.RECIPE); };
   const toggleCheck = (key) => setChecked((p) => ({ ...p, [key]: !p[key] }));
 
   return (
     <div style={S.root}>
-      {/* HEADER */}
       <header style={S.header}>
         <div style={S.headerInner}>
-          {view !== VIEWS.HOME ? (
-            <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
-          ) : (
-            <span style={S.logo}>🍽 MesRecettes</span>
-          )}
+          {view !== VIEWS.HOME
+            ? <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
+            : <span style={S.logo}>🍽 MesRecettes</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
-              <button
-                style={cartCount > 0 ? S.cartBtnActive : S.cartBtn}
-                onClick={() => cartCount > 0 && setView(VIEWS.CART)}
-              >
+              <button style={cartCount > 0 ? S.cartBtnActive : S.cartBtn} onClick={() => cartCount > 0 && setView(VIEWS.CART)}>
                 🛒 {cartCount > 0 ? `${cartCount} plat${cartCount > 1 ? "s" : ""}` : "Panier vide"}
               </button>
             )}
-            {view === VIEWS.RECIPE && (
-              <button style={S.cartBtnActive} onClick={() => setView(VIEWS.CART)}>
-                🛒 Panier {cartCount > 0 && `(${cartCount})`}
-              </button>
-            )}
-            {view === VIEWS.CART && cartCount > 0 && (
-              <button style={S.cartBtnActive} onClick={() => setView(VIEWS.SHOPPING)}>
-                📋 Liste de courses
-              </button>
-            )}
-            {view === VIEWS.SHOPPING && (
-              <span style={S.shoppingCount}>{checkedCount}/{mergedList.length}</span>
-            )}
+            {view === VIEWS.RECIPE && <button style={S.cartBtnActive} onClick={() => setView(VIEWS.CART)}>🛒 Panier {cartCount > 0 && `(${cartCount})`}</button>}
+            {view === VIEWS.CART && cartCount > 0 && <button style={S.cartBtnActive} onClick={() => setView(VIEWS.SHOPPING)}>📋 Liste de courses</button>}
+            {view === VIEWS.SHOPPING && <span style={S.shoppingCount}>{checkedCount}/{mergedList.length}</span>}
           </div>
         </div>
       </header>
@@ -146,9 +330,7 @@ export default function App() {
                     <div style={S.cardImgWrap}>
                       <img src={dish.image} alt={dish.name} style={S.cardImg} />
                       <div style={S.cardOverlay} />
-                      <div style={S.cardBadges}>
-                        {dish.tags.map((t) => <span key={t} style={S.badge}>{t}</span>)}
-                      </div>
+                      <div style={S.cardBadges}>{dish.tags.map((t) => <span key={t} style={S.badge}>{t}</span>)}</div>
                       {inCart && <div style={S.inCartBadge}>✓ Dans le panier</div>}
                     </div>
                     <div style={S.cardBody}>
@@ -162,21 +344,12 @@ export default function App() {
                       </div>
                     </div>
                   </button>
-                  <button
-                    style={{ ...S.addToCartBtn, ...(inCart ? S.addToCartBtnActive : {}) }}
-                    onClick={() => toggleCart(dish)}
-                  >
+                  <button style={{ ...S.addToCartBtn, ...(inCart ? S.addToCartBtnActive : {}) }} onClick={() => toggleCart(dish)}>
                     {inCart ? "✓ Retirer du panier" : "+ Ajouter au panier"}
                   </button>
                 </div>
               );
             })}
-            {[...Array(3)].map((_, i) => (
-              <div key={i} style={S.placeholder}>
-                <span style={S.placeholderIcon}>＋</span>
-                <span style={S.placeholderText}>Prochaine recette</span>
-              </div>
-            ))}
           </div>
         </main>
       )}
@@ -197,13 +370,9 @@ export default function App() {
             </div>
           </div>
           <div style={S.stepsWrap}>
-            <button
-              style={{ ...S.addToCartBtn, width: "100%", marginBottom: 28, borderRadius: 12, borderTop: `1px solid ${C.border}`, ...(cart.includes(selected.id) ? S.addToCartBtnActive : {}) }}
-              onClick={() => toggleCart(selected)}
-            >
+            <button style={{ ...S.addToCartBtn, width: "100%", marginBottom: 28, borderRadius: 12, borderTop: `1px solid ${C.border}`, ...(cart.includes(selected.id) ? S.addToCartBtnActive : {}) }} onClick={() => toggleCart(selected)}>
               {cart.includes(selected.id) ? "✓ Dans le panier — Retirer" : "+ Ajouter au panier"}
             </button>
-
             <h2 style={S.sectionTitle}>Étapes de la recette</h2>
             <div style={S.progressBar}>
               {selected.steps.map((_, i) => (
@@ -211,29 +380,22 @@ export default function App() {
               ))}
               <div style={{ ...S.progressLine, width: `${(activeStep / (selected.steps.length - 1)) * 100}%` }} />
             </div>
-
             <div style={S.stepCard}>
               <div style={S.stepNum}>Étape {selected.steps[activeStep].num}</div>
               <h3 style={S.stepTitle}>{selected.steps[activeStep].title}</h3>
               <p style={S.stepDesc}>{selected.steps[activeStep].desc}</p>
             </div>
-
             <div style={S.stepNav}>
               <button style={{ ...S.navBtn, opacity: activeStep === 0 ? 0.3 : 1 }} disabled={activeStep === 0} onClick={() => setActiveStep((p) => p - 1)}>← Précédent</button>
               {activeStep < selected.steps.length - 1
                 ? <button style={{ ...S.navBtn, ...S.navBtnPrimary }} onClick={() => setActiveStep((p) => p + 1)}>Suivant →</button>
-                : <button style={{ ...S.navBtn, ...S.navBtnSuccess }}>✓ Terminé !</button>
-              }
+                : <button style={{ ...S.navBtn, ...S.navBtnSuccess }}>✓ Terminé !</button>}
             </div>
-
             <h2 style={{ ...S.sectionTitle, marginTop: 8 }}>Toutes les étapes</h2>
             {selected.steps.map((s, i) => (
               <div key={i} style={{ ...S.stepRow, ...(i === activeStep ? S.stepRowActive : {}) }} onClick={() => setActiveStep(i)}>
                 <div style={{ ...S.stepRowNum, ...(i === activeStep ? S.stepRowNumActive : {}) }}>{s.num}</div>
-                <div>
-                  <div style={S.stepRowTitle}>{s.title}</div>
-                  <div style={S.stepRowDesc}>{s.desc.substring(0, 60)}…</div>
-                </div>
+                <div><div style={S.stepRowTitle}>{s.title}</div><div style={S.stepRowDesc}>{s.desc.substring(0, 60)}…</div></div>
               </div>
             ))}
           </div>
@@ -268,18 +430,10 @@ export default function App() {
                 ))}
               </div>
               <div style={S.cartSummary}>
-                <div style={S.cartSummaryRow}>
-                  <span style={S.cartSummaryLabel}>Plats sélectionnés</span>
-                  <span style={S.cartSummaryValue}>{cartCount}</span>
-                </div>
-                <div style={S.cartSummaryRow}>
-                  <span style={S.cartSummaryLabel}>Articles à acheter</span>
-                  <span style={S.cartSummaryValue}>{mergedList.length}</span>
-                </div>
+                <div style={S.cartSummaryRow}><span style={S.cartSummaryLabel}>Plats sélectionnés</span><span style={S.cartSummaryValue}>{cartCount}</span></div>
+                <div style={S.cartSummaryRow}><span style={S.cartSummaryLabel}>Articles à acheter</span><span style={S.cartSummaryValue}>{mergedList.length}</span></div>
               </div>
-              <button style={S.shoppingCTA} onClick={() => setView(VIEWS.SHOPPING)}>
-                📋 Voir la liste de courses globale ({mergedList.length} articles)
-              </button>
+              <button style={S.shoppingCTA} onClick={() => setView(VIEWS.SHOPPING)}>📋 Voir la liste de courses globale ({mergedList.length} articles)</button>
             </>
           )}
         </main>
@@ -291,12 +445,9 @@ export default function App() {
           <div style={S.shoppingHeader}>
             <h1 style={S.shoppingTitle}>📋 Liste de courses</h1>
             <p style={S.shoppingSub}>{cartDishes.map((d) => d.name).join(" + ")}</p>
-            <div style={S.progressPill}>
-              <div style={{ ...S.progressFill, width: `${mergedList.length ? (checkedCount / mergedList.length) * 100 : 0}%` }} />
-            </div>
+            <div style={S.progressPill}><div style={{ ...S.progressFill, width: `${mergedList.length ? (checkedCount / mergedList.length) * 100 : 0}%` }} /></div>
             <span style={S.progressLabel}>{checkedCount} / {mergedList.length} articles</span>
           </div>
-
           <div style={S.ingredientList}>
             {mergedList.map((ing, i) => {
               const key = `ing-${i}`;
@@ -306,20 +457,15 @@ export default function App() {
                   <div style={{ ...S.checkCircle, ...(isChecked ? S.checkCircleActive : {}) }}>{isChecked && "✓"}</div>
                   <div style={S.ingredientInfo}>
                     <span style={{ ...S.ingredientName, ...(isChecked ? S.ingredientNameDone : {}) }}>{ing.item}</span>
-                    {ing.sources.length > 1 && (
-                      <span style={S.ingredientSources}>{ing.sources.map((s) => s.dish).join(" · ")}</span>
-                    )}
+                    {ing.sources.length > 1 && <span style={S.ingredientSources}>{ing.sources.map((s) => s.dish).join(" · ")}</span>}
                   </div>
                   <div style={S.ingredientQtyWrap}>
-                    {ing.sources.map((s, j) => (
-                      <span key={j} style={S.ingredientQty}>{s.qty}</span>
-                    ))}
+                    {ing.sources.map((s, j) => <span key={j} style={S.ingredientQty}>{s.qty}</span>)}
                   </div>
                 </button>
               );
             })}
           </div>
-
           {checkedCount === mergedList.length && mergedList.length > 0 && (
             <div style={S.allDone}>
               <span style={{ fontSize: 48 }}>🎉</span>
@@ -333,15 +479,7 @@ export default function App() {
   );
 }
 
-const C = {
-  bg: "#f0ede8",
-  card: "#ffffff",
-  accent: "#2d5a3d",
-  text: "#1a2e22",
-  muted: "#7a8a80",
-  border: "#ddd8d0",
-  green: "#2d5a3d",
-};
+const C = { bg: "#f0ede8", card: "#ffffff", accent: "#2d5a3d", text: "#1a2e22", muted: "#7a8a80", border: "#ddd8d0", green: "#2d5a3d" };
 
 const S = {
   root: { fontFamily: "'Futura','Century Gothic','Trebuchet MS',sans-serif", background: C.bg, minHeight: "100vh", color: C.text },
@@ -374,9 +512,6 @@ const S = {
   diffBadge: { background: C.accent + "18", color: C.accent, padding: "2px 8px", borderRadius: 10 },
   addToCartBtn: { width: "100%", padding: "13px", background: C.bg, border: `1px solid ${C.border}`, borderTop: "none", borderRadius: "0 0 16px 16px", color: C.accent, fontWeight: "bold", fontSize: 13, cursor: "pointer", fontFamily: "inherit", letterSpacing: "0.04em", textTransform: "uppercase" },
   addToCartBtnActive: { background: C.accent + "12", borderColor: C.accent },
-  placeholder: { background: C.card, border: `1px dashed ${C.border}`, borderRadius: 16, height: 100, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 6 },
-  placeholderIcon: { fontSize: 24, color: C.border },
-  placeholderText: { fontSize: 12, color: C.border },
   recipeHero: { position: "relative", height: 260, margin: "0 -16px" },
   recipeHeroImg: { width: "100%", height: "100%", objectFit: "cover", display: "block" },
   recipeHeroGrad: { position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(240,237,232,1) 0%, rgba(240,237,232,0.2) 60%, transparent 100%)" },
