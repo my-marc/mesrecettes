@@ -3,7 +3,7 @@ import { useState, useMemo } from "react";
 const dishes = [
   {
     id: 1,
-    name: "Saumon crousti-sésame au miel & gingembre",
+    name: "Saumon glacé miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
     image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
@@ -683,11 +683,11 @@ export default function App() {
   );
 }
 
-const C = { bg: "#f0ede8", card: "#ffffff", accent: "#2d5a3d", text: "#1a2e22", muted: "#7a8a80", border: "#ddd8d0", green: "#2d5a3d" };
+const C = { bg: "#f5f5f5", card: "#ffffff", accent: "#12c91b", text: "#1a1a1a", muted: "#888888", border: "#e0e0e0", green: "#12c91b" };
 
 const S = {
   root: { fontFamily: "'Futura','Century Gothic','Trebuchet MS',sans-serif", background: C.bg, minHeight: "100vh", color: C.text },
-  header: { position: "sticky", top: 0, zIndex: 100, background: "rgba(240,237,232,0.95)", backdropFilter: "blur(12px)", borderBottom: `1px solid ${C.border}`, padding: "0 20px", height: 56, display: "flex", alignItems: "center" },
+  header: { position: "sticky", top: 0, zIndex: 100, background: "rgba(255,255,255,0.95)", backdropFilter: "blur(12px)", borderBottom: `1px solid ${C.border}`, padding: "0 20px", height: 56, display: "flex", alignItems: "center" },
   headerInner: { width: "100%", maxWidth: 640, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center" },
   headerRight: { display: "flex", gap: 8, alignItems: "center" },
   logo: { fontSize: 18, fontWeight: "bold", letterSpacing: "0.02em", color: C.accent },
@@ -718,7 +718,7 @@ const S = {
   addToCartBtnActive: { background: C.accent + "12", borderColor: C.accent },
   recipeHero: { position: "relative", height: 260, margin: "0 -16px" },
   recipeHeroImg: { width: "100%", height: "100%", objectFit: "cover", display: "block" },
-  recipeHeroGrad: { position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(240,237,232,1) 0%, rgba(240,237,232,0.2) 60%, transparent 100%)" },
+  recipeHeroGrad: { position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(245,245,245,1) 0%, rgba(245,245,245,0.2) 60%, transparent 100%)" },
   recipeHeroContent: { position: "absolute", bottom: 20, left: 16, right: 16 },
   recipeTitle: { fontSize: 26, fontWeight: "bold", margin: "0 0 8px", color: C.text },
   recipeMeta: { display: "flex", gap: 16 },
@@ -731,7 +731,7 @@ const S = {
   stepCard: { background: C.card, border: `1px solid ${C.border}`, borderLeft: `3px solid ${C.accent}`, borderRadius: 12, padding: "20px", marginBottom: 16 },
   stepNum: { fontSize: 11, color: C.accent, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 4 },
   stepTitle: { fontSize: 18, fontWeight: "bold", margin: "0 0 12px", color: C.text },
-  stepDesc: { fontSize: 14, lineHeight: 1.7, color: "#4a5e52", margin: 0 },
+  stepDesc: { fontSize: 14, lineHeight: 1.7, color: "#555555", margin: 0 },
   stepNav: { display: "flex", gap: 10, marginBottom: 32 },
   navBtn: { flex: 1, padding: "12px", borderRadius: 10, background: C.card, border: `1px solid ${C.border}`, color: C.text, fontSize: 14, cursor: "pointer", fontFamily: "inherit" },
   navBtnPrimary: { background: C.accent, border: "none", color: "#fff", fontWeight: "bold", padding: "12px 20px", borderRadius: 10, fontSize: 14, cursor: "pointer", fontFamily: "inherit", display: "inline-block" },
