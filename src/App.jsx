@@ -245,7 +245,7 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R235_W32_FR_RFR38643-2_Main_high-46071c1b.jpg?w=600&q=80",
+    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R235_W32_FR_RFR38643-2_Main_high-46071c1b.jpg",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
@@ -266,7 +266,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://www.lesfruitsetlegumesfrais.com/app/uploads/2025/10/shutterstock-241600957.jpg?w=600&q=80",
+    image: "https://www.lesfruitsetlegumesfrais.com/app/uploads/2025/10/shutterstock-241600957.jpg",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
@@ -289,7 +289,7 @@ const dishes = [
     name: "Quiche lorraine",
     subtitle: "Lardons • Comté • Crème fraîche",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "580 kcal",
-    image: "https://www.madamerestaurant.fr/wp-content/uploads/2026/01/quiche-lorraine_traditional-french-pie-quiche-lorraine-on-kitchen-table.jpg?w=600&q=80",
+    image: "https://www.madamerestaurant.fr/wp-content/uploads/2026/01/quiche-lorraine_traditional-french-pie-quiche-lorraine-on-kitchen-table.jpg",
     tags: ["Tarte", "Français", "Classique"],
     ingredients: [
       { item: "Pâte brisée", qty: "½ rouleau" }, { item: "Lardons", qty: "65 g" },
