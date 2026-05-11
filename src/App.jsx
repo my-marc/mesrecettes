@@ -142,7 +142,7 @@ const dishes = [
   },
   {
     id: 7,
-    name: "Keftas d'agneau & semoule",
+    name: "Keftas de boeuf & semoule",
     subtitle: "Carottes • Épinards • Yaourt grec",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "2799 kcal",
     image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80",
@@ -167,7 +167,7 @@ const dishes = [
   },
   {
     id: 8,
-    name: "Lieu noir, purée carotte & lardons",
+    name: "Lieu, purée carotte & lardons",
     subtitle: "Pommes de terre • Sauce ravigote • Persil",
     time: "35 min", servings: 2, difficulty: "Moyen", calories: "2264 kcal",
     image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80",
@@ -267,7 +267,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=600&q=80",
+    image: "https://img.cuisineaz.com/1200x675/2015/05/05/i88803-quiche-aux-epinards-et-feta.jpg",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
@@ -311,7 +311,7 @@ const dishes = [
   },
   {
     id: 21,
-    name: "Pasta Toscana",
+    name: "Pasta Toscana à la chair saucisse",
     subtitle: "Paccheri • Chair à saucisse • Fenouil",
     time: "60 min", servings: 4, difficulty: "Facile", calories: "680 kcal",
     image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
@@ -416,7 +416,7 @@ const dishes = [
   },
   {
     id: 20,
-    name: "Salade au halloumi grillé",
+    name: "Salade au halloumi grillé, zaatar et bresaola",
     subtitle: "Roquette • Bresaola • Vinaigrette zaatar",
     time: "16 min", servings: 2, difficulty: "Facile", calories: "520 kcal",
     image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
@@ -445,7 +445,7 @@ const dishes = [
   },
   {
     id: 19,
-    name: "Pâtes au thon de Loulou Kitchen",
+    name: "Pâtes au thon",
     subtitle: "Linguine • Crème • Câpres & olives",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "650 kcal",
     image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
@@ -534,7 +534,7 @@ const dishes = [
   },
   {
     id: 16,
-    name: "Bœuf sauté à la thaïe",
+    name: "Bœuf sauté à la thaï",
     subtitle: "Riz • Échalotes • Basilic thaï • Sriracha",
     time: "45 min", servings: 4, difficulty: "Moyen", calories: "560 kcal",
     image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&q=80",
@@ -622,7 +622,7 @@ const dishes = [
   },
   {
     id: 12,
-    name: "Salade de bœuf thaïe",
+    name: "Salade de bœuf thaï",
     subtitle: "Bavette • Pousses de soja • Sauce thaï",
     time: "20 min", servings: 2, difficulty: "Facile", calories: "420 kcal",
     image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
