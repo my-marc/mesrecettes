@@ -6,7 +6,7 @@ const dishes = [
     name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
-    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg",
+    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg?aspect_ratio=16:9&quality=90&",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
@@ -52,7 +52,7 @@ const dishes = [
     name: "Curry de poulet au lait de coco",
     subtitle: "Riz • Cacahuètes • Citron",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "3418 kcal",
-    image: "https://lesbonnesrecettes.fr/images/recettes-512/curry-sate-malaisien-authentique-et-savoureux-1409.webp",
+    image: "https://lesbonnesrecettes.fr/images/recettes-512/curry-sate-malaisien-authentique-et-savoureux-1409.webp?aspect_ratio=16:9&quality=90&",
     tags: ["Poulet", "Asiatique", "Épicé"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Blanc de poulet", qty: "1 paquet" },
@@ -77,7 +77,7 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://5dinners1hour.com/wp-content/uploads/2016/02/black-bean-corn-Q8.jpg",
+    image: "https://5dinners1hour.com/wp-content/uploads/2016/02/black-bean-corn-Q8.jpg?aspect_ratio=16:9&quality=90&",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
@@ -267,7 +267,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://img.cuisineaz.com/1200x675/2015/05/05/i88803-quiche-aux-epinards-et-feta.jpg",
+    image: "https://img.cuisineaz.com/1200x675/2015/05/05/i88803-quiche-aux-epinards-et-feta.jpg?aspect_ratio=16:9&quality=90&",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
