@@ -266,7 +266,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://www.lesfruitsetlegumesfrais.com/app/uploads/2025/10/shutterstock-241600957.jpg",
+    image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=600&q=80",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
@@ -289,7 +289,7 @@ const dishes = [
     name: "Quiche lorraine",
     subtitle: "Lardons • Comté • Crème fraîche",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "580 kcal",
-    image: "https://www.madamerestaurant.fr/wp-content/uploads/2026/01/quiche-lorraine_traditional-french-pie-quiche-lorraine-on-kitchen-table.jpg",
+    image: "https://images.unsplash.com/photo-1568051243858-533a607809a5?w=600&q=80",
     tags: ["Tarte", "Français", "Classique"],
     ingredients: [
       { item: "Pâte brisée", qty: "½ rouleau" }, { item: "Lardons", qty: "65 g" },
