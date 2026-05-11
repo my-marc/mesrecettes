@@ -625,7 +625,7 @@ const dishes = [
     name: "Salade de bœuf thaï",
     subtitle: "Bavette • Pousses de soja • Sauce thaï",
     time: "20 min", servings: 2, difficulty: "Facile", calories: "420 kcal",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+    image: "https://fr.frije.com/content/recipes/185643/400-1.jpg",
     tags: ["Bœuf", "Thaï", "Salade"],
     ingredients: [
       { item: "Bavette de bœuf", qty: "200 g" },
