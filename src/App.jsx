@@ -77,7 +77,7 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://img.hellofresh.com/hellofresh_s3/image/65640598c79d741428512c18-524b4a9a.jpeg",
+    image: "https://5dinners1hour.com/wp-content/uploads/2016/02/black-bean-corn-Q8.jpg",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
@@ -245,7 +245,7 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
+    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R235_W32_FR_RFR38643-2_Main_high-46071c1b.jpgw=600&q=80",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
