@@ -3,10 +3,10 @@ import { useState, useMemo } from "react";
 const dishes = [
   {
     id: 1,
-    name: "Saumon glacé miel & gingembre",
+    name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
-    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    image: "https://img.hellofresh.com/f_auto,fl_lossy,h_640,q_auto,w_1200/hellofresh_s3/image/HF_Y25_R234_W38_FR_QFR21485-9_Mainhigh-0e513969.jpg",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
