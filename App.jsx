@@ -504,7 +504,7 @@ export default function App() {
         <div style={S.headerInner}>
           {view !== VIEWS.HOME
             ? <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
-            : <span style={S.logo}>🍽 MesRecettes</span>}
+            : <span style={S.logo}>🍽 Les recettes du quotidien</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
               <button style={cartCount > 0 ? S.cartBtnActive : S.cartBtn} onClick={() => cartCount > 0 && setView(VIEWS.CART)}>
