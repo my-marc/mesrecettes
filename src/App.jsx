@@ -380,7 +380,7 @@ const styles = {
     letterSpacing: "0.04em",
   },
   cardBody: { padding: "16px 18px 18px" },
-  cardName: { fontSize: 20, fontWeight: "normal", margin: "0 0 4px", letterSpacing: "-0.01em" },
+  cardName: { fontSize: 20, fontWeight: "normal", margin: "0 0 4px", letterSpacing: "-0.01em", color: "#f5f0e8" },
   cardSub: { fontSize: 13, color: C.muted, margin: "0 0 12px" },
   cardMeta: { display: "flex", flexWrap: "wrap", gap: 8 },
   metaItem: { fontSize: 12, color: C.muted, letterSpacing: "0.02em" },
