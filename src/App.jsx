@@ -651,6 +651,160 @@ const dishes = [
       { num: 4, title: "Le grand mélange", desc: "Ajoutez la menthe ciselée et la feta émiettée aux céréales. Mélangez le vinaigre de xérès avec l'huile d'olive et l'huile de tournesol. Salez légèrement. Versez la vinaigrette sur la salade et mélangez délicatement." },
     ],
   },
+  {
+    id: 29,
+    name: "Tarte thon tomates cerises",
+    subtitle: "Pâte feuilletée • Crème • Herbes de Provence",
+    time: "50 min", servings: 2, difficulty: "Très facile", calories: "465 kcal",
+    image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    tags: ["Tarte", "Thon", "Léger"],
+    ingredients: [
+      { item: "Pâte feuilletée ou brisée", qty: "½ rouleau" },
+      { item: "Tomates cerises", qty: "8 pièces" },
+      { item: "Œuf", qty: "1 pièce" },
+      { item: "Thon au naturel en boîte", qty: "1 petite boîte" },
+      { item: "Crème fraîche", qty: "5 cl" },
+      { item: "Lait", qty: "10 cl" },
+      { item: "Moutarde", qty: "1 cc" },
+      { item: "Herbes de Provence", qty: "1 cc" },
+      { item: "Sel et poivre", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Préchauffage & pâte", desc: "Préchauffer le four à 165°C chaleur tournante. Déposer la pâte dans un moule à tarte et étaler une fine couche de moutarde sur le fond." },
+      { num: 2, title: "Le thon", desc: "Égoutter et émietter le thon, puis le répartir uniformément sur la moutarde." },
+      { num: 3, title: "L'appareil", desc: "Dans un bol, mélanger l'œuf, la crème fraîche, le lait et les herbes de Provence. Saler et poivrer. Verser ce mélange sur le thon." },
+      { num: 4, title: "Les tomates & cuisson", desc: "Couper les tomates cerises en deux et les disposer sur la tarte. Enfourner 30 à 35 min jusqu'à ce que l'appareil soit pris et légèrement doré." },
+    ],
+  },
+  {
+    id: 30,
+    name: "Ramen express aux sardines",
+    subtitle: "Bouillon miso • Nouilles japonaises • Œuf mollet",
+    time: "50 min", servings: 2, difficulty: "Moyen", calories: "625 kcal",
+    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80",
+    tags: ["Soupe", "Japonais", "Poisson"],
+    ingredients: [
+      { item: "Sardines à l'huile en boîte", qty: "2 boîtes" },
+      { item: "Carotte", qty: "1 pièce" },
+      { item: "Blanc de poireau", qty: "1 pièce" },
+      { item: "Gousses d'ail", qty: "2 pièces" },
+      { item: "Coriandre fraîche", qty: "1 brin" },
+      { item: "Cébette", qty: "1 pièce" },
+      { item: "Miso blanc", qty: "1 cs" },
+      { item: "Nouilles japonaises", qty: "100 g" },
+      { item: "Sauce soja", qty: "4 cs" },
+      { item: "Épinards frais", qty: "1 poignée" },
+      { item: "Pousses de soja", qty: "1 poignée" },
+      { item: "Pousses de bambou", qty: "1 poignée" },
+      { item: "Œufs", qty: "2 pièces" },
+      { item: "Huile pimentée", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Le bouillon", desc: "Réserver 4 filets de sardines pour la garniture. Faire revenir le reste des sardines avec la carotte, le poireau, l'ail et la coriandre. Ajouter 750 ml d'eau et le miso blanc. Laisser mijoter 30 minutes à feu doux. Filtrer le bouillon." },
+      { num: 2, title: "Les œufs mollets", desc: "Cuire les œufs dans une casserole d'eau bouillante pendant 7 min 30. Les plonger immédiatement dans de l'eau froide, puis les écaler délicatement." },
+      { num: 3, title: "Les nouilles", desc: "Cuire les nouilles japonaises selon les indications du paquet. Égoutter et réserver." },
+      { num: 4, title: "Dressage", desc: "Verser le bouillon chaud dans les bols. Ajouter les nouilles, les sardines réservées, les épinards, les pousses de soja, les pousses de bambou et un œuf mollet coupé en deux. Assaisonner de sauce soja et d'huile pimentée. Parsemer de cébette émincée." },
+    ],
+  },
+  {
+    id: 31,
+    name: "Tarte tatin aubergines & fromage frais",
+    subtitle: "Pâte feuilletée • Feta • Tomates séchées",
+    time: "40 min", servings: 4, difficulty: "Facile", calories: "470 kcal",
+    image: "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&q=80",
+    tags: ["Tarte", "Végétarien", "Estivale"],
+    ingredients: [
+      { item: "Aubergines", qty: "3 pièces" },
+      { item: "Pâte feuilletée ronde", qty: "1 rouleau" },
+      { item: "Feta ou fromage frais", qty: "150 g" },
+      { item: "Tomates séchées", qty: "120 g" },
+      { item: "Paprika fumé", qty: "1 cc" },
+      { item: "Coriandre en poudre", qty: "1 cc" },
+      { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Citron (jus)", qty: "1 pièce" },
+      { item: "Coriandre fraîche", qty: "quelques brins" },
+      { item: "Fleur de sel", qty: "selon goût" },
+      { item: "Huile d'olive", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Préchauffage & aubergines", desc: "Préchauffer le four à 190°C. Couper les aubergines en rondelles épaisses et les faire revenir à la poêle avec un filet d'huile d'olive jusqu'à ce qu'elles soient dorées. Saler." },
+      { num: 2, title: "La tartinade", desc: "Mixer la feta (ou fromage frais), les tomates séchées, le paprika fumé, la coriandre en poudre, l'ail et le jus de citron jusqu'à obtenir une préparation lisse et homogène." },
+      { num: 3, title: "Le montage", desc: "Étaler la tartinade sur la pâte feuilletée. Disposer les rondelles d'aubergines dans un moule huilé, puis recouvrir avec la pâte (tartinade côté aubergines). Rentrer les bords." },
+      { num: 4, title: "Cuisson & dressage", desc: "Enfourner 25 à 30 min jusqu'à ce que la pâte soit bien dorée. Démouler immédiatement en retournant sur une assiette. Parsemer de coriandre fraîche et de fleur de sel. Servir tiède." },
+    ],
+  },
+  {
+    id: 32,
+    name: "Pâtes à la ricotta et petits pois",
+    subtitle: "Pâtes complètes • Citron • Parmesan",
+    time: "30 min", servings: 2, difficulty: "Très facile", calories: "530 kcal",
+    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    tags: ["Pâtes", "Végétarien", "Léger"],
+    ingredients: [
+      { item: "Ricotta", qty: "250 g" },
+      { item: "Petits pois", qty: "200 g" },
+      { item: "Pâtes complètes", qty: "110 g" },
+      { item: "Jus de citron", qty: "50 ml" },
+      { item: "Bouillon de légumes", qty: "20 g" },
+      { item: "Gousse d'ail", qty: "1 pièce" },
+      { item: "Huile d'olive", qty: "1 cs" },
+      { item: "Parmesan râpé", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Les pâtes", desc: "Cuire les pâtes dans une grande casserole d'eau salée avec le bouillon de légumes. Avant d'égoutter, réserver une louche d'eau de cuisson." },
+      { num: 2, title: "La base", desc: "Faire revenir l'ail haché dans l'huile d'olive à feu moyen. Ajouter les petits pois et faire sauter 3 minutes." },
+      { num: 3, title: "La sauce ricotta", desc: "Ajouter la ricotta et le jus de citron. Mélanger jusqu'à obtenir une sauce crémeuse. Allonger avec un peu d'eau de cuisson si nécessaire." },
+      { num: 4, title: "Dressage", desc: "Incorporer les pâtes égouttées à la sauce. Bien mélanger. Servir immédiatement avec du parmesan râpé." },
+    ],
+  },
+  {
+    id: 33,
+    name: "Poulet à la crème et épinards",
+    subtitle: "Crème de soja • Champignons • Beaufort",
+    time: "45 min", servings: 2, difficulty: "Facile", calories: "470 kcal",
+    image: "https://images.unsplash.com/photo-1604908177453-7462950a6a3b?w=600&q=80",
+    tags: ["Poulet", "Crémeux", "Léger"],
+    ingredients: [
+      { item: "Filets de poulet", qty: "300 g" },
+      { item: "Crème de soja", qty: "400 ml" },
+      { item: "Champignons de Paris", qty: "150 g" },
+      { item: "Épinards frais", qty: "55 g" },
+      { item: "Oignon rouge", qty: "35 g" },
+      { item: "Beaufort râpé", qty: "25 g" },
+      { item: "Huile d'olive", qty: "1 filet" },
+      { item: "Sel et poivre", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Le poulet", desc: "Couper les filets de poulet en morceaux. Faire chauffer un filet d'huile d'olive dans une poêle à feu moyen-vif. Faire dorer le poulet sur toutes les faces. Saler, poivrer et réserver." },
+      { num: 2, title: "Les légumes", desc: "Dans la même poêle, faire revenir l'oignon rouge émincé et les champignons émincés jusqu'à ce qu'ils soient bien dorés." },
+      { num: 3, title: "La sauce", desc: "Ajouter les épinards frais et laisser tomber 1 à 2 min. Verser la crème de soja et remettre le poulet. Laisser mijoter 5 min à feu doux jusqu'à ce que la sauce nappe légèrement." },
+      { num: 4, title: "Dressage", desc: "Ajouter le Beaufort râpé et mélanger jusqu'à ce qu'il soit fondu. Servir chaud accompagné de riz ou de pâtes." },
+    ],
+  },
+  {
+    id: 34,
+    name: "Poulet aux légumes sauce caramélisée",
+    subtitle: "Hauts de cuisse • Chou-fleur • Sauce Yakitori",
+    time: "80 min", servings: 2, difficulty: "Facile", calories: "470 kcal",
+    image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=600&q=80",
+    tags: ["Poulet", "Four", "Réconfortant"],
+    ingredients: [
+      { item: "Hauts de cuisse de poulet", qty: "500 g" },
+      { item: "Chou-fleur", qty: "250 g" },
+      { item: "Poireau", qty: "225 g" },
+      { item: "Miel ou sirop d'érable", qty: "65 g" },
+      { item: "Sauce Yakitori", qty: "50 ml" },
+      { item: "Bouillon de volaille", qty: "10 g" },
+      { item: "Gousses d'ail", qty: "2 pièces" },
+      { item: "Eau", qty: "290 ml" },
+    ],
+    steps: [
+      { num: 1, title: "La sauce", desc: "Mélanger le miel (ou sirop d'érable), la sauce Yakitori, le bouillon de volaille et l'eau dans un bol. Réserver." },
+      { num: 2, title: "Le montage", desc: "Préchauffer le four à 200°C. Couper le chou-fleur en fleurettes et le poireau en tronçons. Déposer les légumes dans un plat à four avec l'ail écrasé, puis disposer les hauts de cuisse par-dessus. Verser la sauce." },
+      { num: 3, title: "Cuisson couverte", desc: "Couvrir le plat de papier aluminium et enfourner 30 minutes." },
+      { num: 4, title: "Caramélisation & dressage", desc: "Retirer l'aluminium et poursuivre la cuisson 15 minutes pour faire dorer et caraméliser. Récupérer le jus et le faire réduire 2 à 3 min à feu vif pour obtenir une sauce sirupeuse. Napper le poulet et servir avec du riz." },
+    ],
+  },
 ];
 
 const VIEWS = { HOME: "home", RECIPE: "recipe", CART: "cart", SHOPPING: "shopping" };
@@ -701,7 +855,7 @@ export default function App() {
         <div style={S.headerInner}>
           {view !== VIEWS.HOME
             ? <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
-            : <span style={S.logo}>Recettes</span>}
+            : <span style={S.logo}>🍽 MesRecettes</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
               <>
@@ -733,7 +887,7 @@ export default function App() {
       {view === VIEWS.HOME && (
         <main style={S.main}>
           <div style={S.hero}>
-            <h1 style={S.heroTitle}>Qu'est-ce qu'on mange ce soir ?</h1>
+            <h1 style={S.heroTitle}>Qu'est-ce qu'on<br />mange ce soir ?</h1>
             <p style={S.heroSub}>Ajoutez des plats au panier pour obtenir une liste de courses combinée.</p>
           </div>
           {search && (
