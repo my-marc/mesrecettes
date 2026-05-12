@@ -828,6 +828,18 @@ export default function App() {
   const [cart, setCart] = useState([]);
   const [checked, setChecked] = useState({});
   const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState("tous");
+
+  const FILTERS = [
+    { key: "tous", label: "Tous", emoji: "🍽" },
+    { key: "poisson", label: "Poisson", emoji: "🐟" },
+    { key: "viande", label: "Viande", emoji: "🥩" },
+    { key: "végétarien", label: "Végétarien", emoji: "🥗" },
+  ];
+
+  const POISSON_TAGS = ["Poisson", "Saumon", "Thon", "Crevettes", "Japonais", "Marinade"];
+  const VIANDE_TAGS = ["Poulet", "Bœuf", "Porc", "Wok"];
+  const VEGGIE_TAGS = ["Végétarien"];
 
   const cartDishes = dishes.filter((d) => cart.includes(d.id));
   const mergedList = useMemo(() => mergeIngredients(cartDishes), [cart]);
@@ -835,15 +847,21 @@ export default function App() {
   const checkedCount = Object.values(checked).filter(Boolean).length;
 
   const filteredDishes = useMemo(() => {
-    if (!search.trim()) return dishes;
-    const q = search.toLowerCase();
-    return dishes.filter((d) =>
-      d.name.toLowerCase().includes(q) ||
-      d.subtitle.toLowerCase().includes(q) ||
-      d.tags.some((t) => t.toLowerCase().includes(q)) ||
-      d.ingredients.some((i) => i.item.toLowerCase().includes(q))
-    );
-  }, [search]);
+    let result = dishes;
+    if (filter === "poisson") result = result.filter((d) => d.tags.some((t) => POISSON_TAGS.includes(t)));
+    else if (filter === "viande") result = result.filter((d) => d.tags.some((t) => VIANDE_TAGS.includes(t)) && !d.tags.some((t) => VEGGIE_TAGS.includes(t)));
+    else if (filter === "végétarien") result = result.filter((d) => d.tags.some((t) => VEGGIE_TAGS.includes(t)));
+    if (search.trim()) {
+      const q = search.toLowerCase();
+      result = result.filter((d) =>
+        d.name.toLowerCase().includes(q) ||
+        d.subtitle.toLowerCase().includes(q) ||
+        d.tags.some((t) => t.toLowerCase().includes(q)) ||
+        d.ingredients.some((i) => i.item.toLowerCase().includes(q))
+      );
+    }
+    return result;
+  }, [search, filter]);
 
   const toggleCart = (dish) => setCart((p) => p.includes(dish.id) ? p.filter((id) => id !== dish.id) : [...p, dish.id]);
   const openDish = (dish) => { setSelected(dish); setActiveStep(0); setView(VIEWS.RECIPE); };
@@ -890,11 +908,22 @@ export default function App() {
             <h1 style={S.heroTitle}>Qu'est-ce qu'on<br />mange ce soir ?</h1>
             <p style={S.heroSub}>Ajoutez des plats au panier pour obtenir une liste de courses combinée.</p>
           </div>
-          {search && (
+          <div style={S.filterBar}>
+            {FILTERS.map((f) => (
+              <button
+                key={f.key}
+                style={{ ...S.filterBtn, ...(filter === f.key ? S.filterBtnActive : {}) }}
+                onClick={() => setFilter(f.key)}
+              >
+                {f.emoji} {f.label}
+              </button>
+            ))}
+          </div>
+          {(search || filter !== "tous") && (
             <div style={S.searchResults}>
               {filteredDishes.length > 0
-                ? <span>{filteredDishes.length} recette{filteredDishes.length > 1 ? "s" : ""} trouvée{filteredDishes.length > 1 ? "s" : ""} pour « {search} »</span>
-                : <span>Aucune recette trouvée pour « {search} »</span>
+                ? <span>{filteredDishes.length} recette{filteredDishes.length > 1 ? "s" : ""}{search ? ` pour « ${search} »` : ""}</span>
+                : <span>Aucune recette trouvée</span>
               }
             </div>
           )}
@@ -1079,6 +1108,9 @@ const S = {
   searchInput: { border: "none", background: "transparent", fontSize: 13, outline: "none", width: "100%", fontFamily: "'Futura','Century Gothic','Trebuchet MS',sans-serif", color: C.text, padding: "7px 0" },
   searchClear: { background: "none", border: "none", color: C.muted, fontSize: 12, cursor: "pointer", padding: "0 2px", flexShrink: 0 },
   searchResults: { fontSize: 13, color: C.muted, marginBottom: 16, paddingTop: 4 },
+  filterBar: { display: "flex", gap: 8, marginBottom: 20, overflowX: "auto", paddingBottom: 4 },
+  filterBtn: { flexShrink: 0, padding: "8px 16px", borderRadius: 20, border: `1px solid ${C.border}`, background: C.card, color: C.muted, fontSize: 13, cursor: "pointer", fontFamily: "inherit", whiteSpace: "nowrap" },
+  filterBtnActive: { background: C.accent, border: `1px solid ${C.accent}`, color: "#fff", fontWeight: "bold" },
   main: { maxWidth: 640, margin: "0 auto", padding: "0 16px 80px" },
   hero: { padding: "40px 0 24px" },
   heroTitle: { fontSize: 34, fontWeight: "normal", lineHeight: 1.2, margin: "0 0 10px", letterSpacing: "-0.02em", color: C.text },
