@@ -442,7 +442,7 @@ const dishes = [
     name: "Salade César",
     subtitle: "Poulet • Croûtons ail • Sauce anchois",
     time: "40 min", servings: 4, difficulty: "Moyen", calories: "520 kcal",
-    image: "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=600&q=80",
+    image: "/images/salade-cesar.jpg",
     tags: ["Poulet", "Salade", "Classique"],
     ingredients: [
       { item: "Sucrines", qty: "5 pièces" }, { item: "Filet de poulet", qty: "400 g" },
@@ -470,7 +470,7 @@ const dishes = [
     name: "Tataki de saumon & mangue fraîche",
     subtitle: "Riz japonais • Marinade miel & sésame",
     time: "30 min", servings: 4, difficulty: "Moyen", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1580822184713-fc5400e7fe10?w=600&q=80",
+    image: "/images/tataki-saumon-mangue-fraiche.jpg",
     tags: ["Saumon", "Japonais", "Marinade"],
     ingredients: [
       { item: "Pavés de saumon", qty: "4 pièces" }, { item: "Riz japonais", qty: "280 g" },
@@ -491,7 +491,7 @@ const dishes = [
     name: "Bœuf sauté à la thaï",
     subtitle: "Riz • Échalotes • Basilic thaï • Sriracha",
     time: "45 min", servings: 4, difficulty: "Moyen", calories: "560 kcal",
-    image: "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?w=600&q=80",
+    image: "/images/salade-boeuf-thai.jpg",
     tags: ["Bœuf", "Thaï", "Épicé"],
     ingredients: [
       { item: "Bavettes de bœuf", qty: "2 pièces (~450 g)" }, { item: "Riz thaï", qty: "400 g" },
