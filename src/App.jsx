@@ -701,7 +701,7 @@ export default function App() {
         <div style={S.headerInner}>
           {view !== VIEWS.HOME
             ? <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
-            : <span style={S.logo}>🍽 Recettes</span>}
+            : <span style={S.logo}>Recettes</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
               <>
@@ -733,7 +733,7 @@ export default function App() {
       {view === VIEWS.HOME && (
         <main style={S.main}>
           <div style={S.hero}>
-            <h1 style={S.heroTitle}>Qu'est-ce qu'on<br />mange ce soir ?</h1>
+            <h1 style={S.heroTitle}>Qu'est-ce qu'on mange ce soir ?</h1>
             <p style={S.heroSub}>Ajoutez des plats au panier pour obtenir une liste de courses combinée.</p>
           </div>
           {search && (
