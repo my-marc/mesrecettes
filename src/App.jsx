@@ -6,7 +6,7 @@ const dishes = [
     name: "Saumon crousti-sésame au miel & gingembre",
     subtitle: "Riz • Courgettes • Sauce asiatique",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "722 kcal",
-    image: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80",
+    image: "/images/saumon-crousti-sesame.jpg",
     tags: ["Poisson", "Asiatique", "Équilibré"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Filets de saumon avec peau", qty: "2 pièces" },
@@ -29,7 +29,7 @@ const dishes = [
     name: "Nouilles sautées aux crevettes",
     subtitle: "Carotte • Poireau • Sauce soja",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "632 kcal",
-    image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+    image: "/images/nouille-saute-crevette.jpg",
     tags: ["Crevettes", "Asiatique", "Rapide"],
     ingredients: [
       { item: "Nouilles de blé", qty: "1 paquet" }, { item: "Crevettes", qty: "1 paquet" },
@@ -52,7 +52,7 @@ const dishes = [
     name: "Curry de poulet au lait de coco",
     subtitle: "Riz • Cacahuètes • Citron",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "3418 kcal",
-    image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+    image: "/images/curry-poulet-laitcoco.jpg",
     tags: ["Poulet", "Asiatique", "Épicé"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Blanc de poulet", qty: "1 paquet" },
@@ -77,7 +77,7 @@ const dishes = [
     name: "Quesadillas tex-mex",
     subtitle: "Pommes de terre • Haricots • Guacamole",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4979 kcal",
-    image: "https://images.unsplash.com/photo-1628191011227-522c7c1a765b?w=600&q=80",
+    image: "/images/quesadillas-tex-mex.jpg",
     tags: ["Végétarien", "Mexicain", "Gourmand"],
     ingredients: [
       { item: "Pommes de terre", qty: "500 g" }, { item: "Haricots rouges", qty: "1 paquet" },
@@ -103,7 +103,7 @@ const dishes = [
     name: "Fusilli pesto, lardons & champignons",
     subtitle: "Crème • Poireau • Ail",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "2950 kcal",
-    image: "https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?w=600&q=80",
+    image: "/images/fusilli-pesto-lardon-champignon.jpg",
     tags: ["Pâtes", "Forestier", "Crémeux"],
     ingredients: [
       { item: "Fusilli complets", qty: "1 paquet" }, { item: "Champignons de Paris", qty: "250 g" },
@@ -123,7 +123,7 @@ const dishes = [
     name: "Porc sauté sauce sriracha",
     subtitle: "Riz • Concombre • Carotte • Mayo soja",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "3961 kcal",
-    image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80",
+    image: "/images/porc-saute-sauce-sriracha.jpg",
     tags: ["Porc", "Asiatique", "Piquant"],
     ingredients: [
       { item: "Riz", qty: "150 g" }, { item: "Chair à saucisse", qty: "1 paquet" },
@@ -145,7 +145,7 @@ const dishes = [
     name: "Keftas de boeuf & semoule",
     subtitle: "Carottes • Épinards • Yaourt grec",
     time: "30 min", servings: 2, difficulty: "Moyen", calories: "2799 kcal",
-    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=600&q=80",
+    image: "/images/kefta-boeuf-semoule.jpg",
     tags: ["Bœuf", "Moyen-Orient", "Épicé"],
     ingredients: [
       { item: "Viande hachée au bœuf", qty: "150 g" }, { item: "Mélange d'épices du Moyen-Orient", qty: "1 sachet" },
@@ -170,7 +170,7 @@ const dishes = [
     name: "Lieu, purée carotte & lardons",
     subtitle: "Pommes de terre • Sauce ravigote • Persil",
     time: "35 min", servings: 2, difficulty: "Moyen", calories: "2264 kcal",
-    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=600&q=80",
+    image: "/images/lieu-puree-carotte-lardons.jpg",
     tags: ["Poisson", "Français", "Réconfortant"],
     ingredients: [
       { item: "Tranches de poitrine fumée", qty: "1 paquet" }, { item: "Filet de lieu noir", qty: "200 g" },
@@ -194,7 +194,7 @@ const dishes = [
     name: "Gratin tortelloni poireaux & cantal",
     subtitle: "Crème • Gouda • Thym",
     time: "30 min", servings: 2, difficulty: "Facile", calories: "3615 kcal",
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
+    image: "/images/gratin-tortelloni-poireau-cantal.jpg",
     tags: ["Pâtes", "Gratiné", "Réconfortant"],
     ingredients: [
       { item: "Tortelloni ricotta-épinards", qty: "300 g" }, { item: "Poireau", qty: "1½ pièce" },
@@ -220,7 +220,7 @@ const dishes = [
     name: "Poulet pané croustillant & brocoli",
     subtitle: "Pommes de terre • Chapelure panko • Salade",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "4021 kcal",
-    image: "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?w=600&q=80",
+    image: "/images/poulet-pané-brocoli.jpg",
     tags: ["Poulet", "Croustillant", "Équilibré"],
     ingredients: [
       { item: "Filet de poulet", qty: "500 g" }, { item: "Brocoli", qty: "1 pièce" },
@@ -245,7 +245,7 @@ const dishes = [
     name: "Ravioli gratinés aubergine & ricotta",
     subtitle: "Tomates concassées • Pecorino • Basilic",
     time: "35 min", servings: 2, difficulty: "Facile", calories: "3418 kcal",
-    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&q=80",
+    image: "/images/gratin-de-raviolis-aubergine.jpg",
     tags: ["Végétarien", "Italien", "Gratiné"],
     ingredients: [
       { item: "Raviolis", qty: "1 paquet" }, { item: "Aubergine", qty: "1 pièce" },
@@ -266,7 +266,7 @@ const dishes = [
     name: "Tarte épinards & feta",
     subtitle: "Épinards frais • Feta • Crème légère",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "420 kcal",
-    image: "https://images.unsplash.com/photo-1576426863848-c21f53c60b19?w=600&q=80",
+    image: "/images/tarte-epinard-feta.jpg",
     tags: ["Tarte", "Végétarien", "Healthy"],
     ingredients: [
       { item: "Pâte brisée (complète de préférence)", qty: "½ rouleau" },
@@ -289,7 +289,7 @@ const dishes = [
     name: "Quiche lorraine",
     subtitle: "Lardons • Comté • Crème fraîche",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "580 kcal",
-    image: "https://images.unsplash.com/photo-1568051243858-533a607809a5?w=600&q=80",
+    image: "/images/quiche-lorraine.jpg",
     tags: ["Tarte", "Français", "Classique"],
     ingredients: [
       { item: "Pâte brisée", qty: "½ rouleau" }, { item: "Lardons", qty: "65 g" },
@@ -309,7 +309,7 @@ const dishes = [
     name: "Pasta Toscana à la chair saucisse",
     subtitle: "Paccheri • Chair à saucisse • Fenouil",
     time: "60 min", servings: 4, difficulty: "Facile", calories: "680 kcal",
-    image: "https://images.unsplash.com/photo-1551183053-bf91798d765c?w=600&q=80",
+    image: "/images/pasta-toscana-chair-saucisse.jpg",
     tags: ["Pâtes", "Italien", "Gourmand"],
     ingredients: [
       { item: "Paccheri (ou pâtes courtes)", qty: "400 g" }, { item: "Chair à saucisse", qty: "300 g" },
@@ -330,7 +330,7 @@ const dishes = [
     name: "Couscous d'épeautre aux légumes",
     subtitle: "Courgettes • Carottes • Pois chiches",
     time: "55 min", servings: 4, difficulty: "Facile", calories: "420 kcal",
-    image: "https://images.unsplash.com/photo-1476718406336-bb5a9690ee2a?w=600&q=80",
+    image: "/images/couscous-epautre.jpg",
     tags: ["Végétarien", "Maghrébin", "Équilibré"],
     ingredients: [
       { item: "Couscous d'épeautre complet", qty: "500 g" }, { item: "Courgettes", qty: "2 pièces" },
@@ -352,7 +352,7 @@ const dishes = [
     name: "Curry vert de crevettes au combava",
     subtitle: "Lait de coco • Lentilles corail • Gingembre",
     time: "45 min", servings: 4, difficulty: "Moyen", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?w=600&q=80",
+    image: "/images/curry-vert-crevette-combawa.jpg",
     tags: ["Crevettes", "Thaï", "Épicé"],
     ingredients: [
       { item: "Crevettes crues", qty: "16 à 24 pièces" }, { item: "Pâte de curry vert", qty: "2–3 cc" },
@@ -375,7 +375,7 @@ const dishes = [
     name: "Poulet sauté au curry & noix de cajou",
     subtitle: "Champignons • Sauce soja • Cives",
     time: "30 min", servings: 4, difficulty: "Facile", calories: "440 kcal",
-    image: "https://images.unsplash.com/photo-1598103442097-8b74394b95c7?w=600&q=80",
+    image: "/images/poulet-curry-noix-de-cajou.jpg",
     tags: ["Poulet", "Wok", "Rapide"],
     ingredients: [
       { item: "Blancs de poulet", qty: "400 g" }, { item: "Curry en poudre", qty: "1 cs" },
@@ -396,7 +396,7 @@ const dishes = [
     name: "Salade au halloumi grillé, zaatar et bresaola",
     subtitle: "Roquette • Bresaola • Vinaigrette zaatar",
     time: "16 min", servings: 2, difficulty: "Facile", calories: "520 kcal",
-    image: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&q=80",
+    image: "/images/salade-halloumi-bresaola.jpg",
     tags: ["Salade", "Levantine", "Estivale"],
     ingredients: [
       { item: "Halloumi", qty: "200 g" }, { item: "Roquette", qty: "1 sachet" },
@@ -419,7 +419,7 @@ const dishes = [
     name: "Pâtes au thon",
     subtitle: "Linguine • Crème • Câpres & olives",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "650 kcal",
-    image: "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&q=80",
+    image: "/images/pates-thon.jpg",
     tags: ["Pâtes", "Thon", "Crémeux"],
     ingredients: [
       { item: "Linguine", qty: "200–250 g" }, { item: "Thon en boîte", qty: "1 boîte" },
