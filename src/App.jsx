@@ -673,11 +673,23 @@ export default function App() {
   const [activeStep, setActiveStep] = useState(0);
   const [cart, setCart] = useState([]);
   const [checked, setChecked] = useState({});
+  const [search, setSearch] = useState("");
 
   const cartDishes = dishes.filter((d) => cart.includes(d.id));
   const mergedList = useMemo(() => mergeIngredients(cartDishes), [cart]);
   const cartCount = cart.length;
   const checkedCount = Object.values(checked).filter(Boolean).length;
+
+  const filteredDishes = useMemo(() => {
+    if (!search.trim()) return dishes;
+    const q = search.toLowerCase();
+    return dishes.filter((d) =>
+      d.name.toLowerCase().includes(q) ||
+      d.subtitle.toLowerCase().includes(q) ||
+      d.tags.some((t) => t.toLowerCase().includes(q)) ||
+      d.ingredients.some((i) => i.item.toLowerCase().includes(q))
+    );
+  }, [search]);
 
   const toggleCart = (dish) => setCart((p) => p.includes(dish.id) ? p.filter((id) => id !== dish.id) : [...p, dish.id]);
   const openDish = (dish) => { setSelected(dish); setActiveStep(0); setView(VIEWS.RECIPE); };
@@ -692,9 +704,24 @@ export default function App() {
             : <span style={S.logo}>🍽 MesRecettes</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
-              <button style={cartCount > 0 ? S.cartBtnActive : S.cartBtn} onClick={() => cartCount > 0 && setView(VIEWS.CART)}>
-                🛒 {cartCount > 0 ? `${cartCount} plat${cartCount > 1 ? "s" : ""}` : "Panier vide"}
-              </button>
+              <>
+                <div style={S.searchWrap}>
+                  <span style={S.searchIcon}>🔍</span>
+                  <input
+                    style={S.searchInput}
+                    type="text"
+                    placeholder="Rechercher..."
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                  />
+                  {search && (
+                    <button style={S.searchClear} onClick={() => setSearch("")}>✕</button>
+                  )}
+                </div>
+                <button style={cartCount > 0 ? S.cartBtnActive : S.cartBtn} onClick={() => cartCount > 0 && setView(VIEWS.CART)}>
+                  🛒 {cartCount > 0 ? `${cartCount}` : "0"}
+                </button>
+              </>
             )}
             {view === VIEWS.RECIPE && <button style={S.cartBtnActive} onClick={() => setView(VIEWS.CART)}>🛒 Panier {cartCount > 0 && `(${cartCount})`}</button>}
             {view === VIEWS.CART && cartCount > 0 && <button style={S.cartBtnActive} onClick={() => setView(VIEWS.SHOPPING)}>📋 Liste de courses</button>}
@@ -709,8 +736,16 @@ export default function App() {
             <h1 style={S.heroTitle}>Qu'est-ce qu'on<br />mange ce soir ?</h1>
             <p style={S.heroSub}>Ajoutez des plats au panier pour obtenir une liste de courses combinée.</p>
           </div>
+          {search && (
+            <div style={S.searchResults}>
+              {filteredDishes.length > 0
+                ? <span>{filteredDishes.length} recette{filteredDishes.length > 1 ? "s" : ""} trouvée{filteredDishes.length > 1 ? "s" : ""} pour « {search} »</span>
+                : <span>Aucune recette trouvée pour « {search} »</span>
+              }
+            </div>
+          )}
           <div style={S.grid}>
-            {dishes.map((dish) => {
+            {filteredDishes.map((dish) => {
               const inCart = cart.includes(dish.id);
               return (
                 <div key={dish.id} style={S.cardWrap}>
@@ -885,6 +920,11 @@ const S = {
   cartBtn: { background: "none", border: `1px solid ${C.border}`, borderRadius: 20, color: C.muted, fontSize: 13, padding: "6px 14px", cursor: "default", fontFamily: "inherit" },
   cartBtnActive: { background: C.accent, border: "none", borderRadius: 20, color: "#fff", fontWeight: "bold", fontSize: 13, padding: "6px 14px", cursor: "pointer", fontFamily: "inherit" },
   shoppingCount: { fontSize: 13, color: C.accent, fontWeight: "bold" },
+  searchWrap: { display: "flex", alignItems: "center", background: "#f0f0f0", borderRadius: 20, padding: "0 10px", gap: 6, flex: 1, maxWidth: 200 },
+  searchIcon: { fontSize: 13, flexShrink: 0 },
+  searchInput: { border: "none", background: "transparent", fontSize: 13, outline: "none", width: "100%", fontFamily: "'Futura','Century Gothic','Trebuchet MS',sans-serif", color: C.text, padding: "7px 0" },
+  searchClear: { background: "none", border: "none", color: C.muted, fontSize: 12, cursor: "pointer", padding: "0 2px", flexShrink: 0 },
+  searchResults: { fontSize: 13, color: C.muted, marginBottom: 16, paddingTop: 4 },
   main: { maxWidth: 640, margin: "0 auto", padding: "0 16px 80px" },
   hero: { padding: "40px 0 24px" },
   heroTitle: { fontSize: 34, fontWeight: "normal", lineHeight: 1.2, margin: "0 0 10px", letterSpacing: "-0.02em", color: C.text },
