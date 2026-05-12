@@ -582,6 +582,28 @@ const dishes = [
     ],
   },
   {
+    id: 28,
+    name: "Gratin de ravioles aux poireaux",
+    subtitle: "Ravioles • Poireau • Crème fraîche",
+    time: "40 min", servings: 2, difficulty: "Très facile", calories: "520 kcal",
+    image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80",
+    tags: ["Gratiné", "Français", "Réconfortant"],
+    ingredients: [
+      { item: "Ravioles", qty: "240 g" },
+      { item: "Crème fraîche liquide entière", qty: "25 cl" },
+      { item: "Poireau", qty: "1 pièce" },
+      { item: "Comté râpé", qty: "1 poignée" },
+      { item: "Huile d'olive", qty: "1 filet" },
+      { item: "Sel et poivre", qty: "selon goût" },
+    ],
+    steps: [
+      { num: 1, title: "Préchauffage", desc: "Préchauffer le four à 210°C." },
+      { num: 2, title: "Les poireaux fondants", desc: "Émincer le blanc de poireau. Le mettre dans une poêle avec un filet d'huile d'olive. Saler et poivrer. Cuire à l'étouffée jusqu'à ce que le poireau soit bien fondant." },
+      { num: 3, title: "Le montage", desc: "Dans un plat à gratin, verser un filet d'huile d'olive. Déposer une plaque de ravioles, une couche de poireaux fondants puis un peu de crème fraîche. Répéter l'opération jusqu'à épuisement des ravioles. Terminer par une plaque de ravioles nappée de crème fraîche." },
+      { num: 4, title: "Au four !", desc: "Couvrir de comté râpé pour gratiner. Enfourner 25 min. Servir immédiatement à la sortie du four." },
+    ],
+  },
+  {
     id: 27,
     name: "Soupe Tom Kha Kay",
     subtitle: "Lait de coco • Citronnelle • Champignons",
