@@ -786,7 +786,7 @@ const dishes = [
     name: "Poulet aux légumes sauce caramélisée",
     subtitle: "Hauts de cuisse • Chou-fleur • Sauce Yakitori",
     time: "80 min", servings: 2, difficulty: "Facile", calories: "470 kcal",
-    image: "https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=600&q=80",
+    image: "/images/Poulet-legumes-sauce-caramelisee.png",
     tags: ["Poulet", "Four", "Réconfortant"],
     ingredients: [
       { item: "Hauts de cuisse de poulet", qty: "500 g" },
