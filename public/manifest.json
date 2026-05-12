@@ -1,7 +1,7 @@
 {
-  "name": "MesRecettes",
-  "short_name": "MesRecettes",
-  "description": "Toutes mes recettes avec liste de courses",
+  "name": "Recettes",
+  "short_name": "Recettes",
+  "description": "Des recettes avec liste de courses",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f5f5f5",
