@@ -873,7 +873,7 @@ export default function App() {
         <div style={S.headerInner}>
           {view !== VIEWS.HOME
             ? <button style={S.backBtn} onClick={() => setView(VIEWS.HOME)}>← Retour</button>
-            : <span style={S.logo}>🍽 MesRecettes</span>}
+            : <span style={S.logo}>Recettes</span>}
           <div style={S.headerRight}>
             {view === VIEWS.HOME && (
               <>
