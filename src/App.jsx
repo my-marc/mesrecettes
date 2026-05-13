@@ -516,7 +516,7 @@ const dishes = [
     name: "Poulet aux champignons & lardons",
     subtitle: "Riz thaï • Crème • Persil frais",
     time: "40 min", servings: 4, difficulty: "Facile", calories: "610 kcal",
-    image: "https://images.unsplash.com/photo-1604908177522-1b4a2f1d1d84?w=600&q=80",
+    image: "/images/poulet-champignon-lardon.jpg",
     tags: ["Poulet", "Crémeux", "Réconfortant"],
     ingredients: [
       { item: "Filets de poulet fermier", qty: "4 pièces" }, { item: "Riz thaï", qty: "300 g" },
@@ -539,7 +539,7 @@ const dishes = [
     name: "Cabillaud, concassée tomates & gingembre",
     subtitle: "Épinards • Lait de coco • Curry vert",
     time: "45 min", servings: 4, difficulty: "Facile", calories: "390 kcal",
-    image: "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80",
+    image: "/images/cabillaud-tomate-gingembre.jpg",
     tags: ["Poisson", "Épicé", "Léger"],
     ingredients: [
       { item: "Cabillaud (4 filets)", qty: "480 g" }, { item: "Riz thaï", qty: "270 g" },
@@ -562,7 +562,7 @@ const dishes = [
     name: "Salade de bœuf thaï",
     subtitle: "Bavette • Pousses de soja • Sauce thaï",
     time: "20 min", servings: 2, difficulty: "Facile", calories: "420 kcal",
-    image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&q=80",
+    image: "/images/salade-boeuf-thai.jpg",
     tags: ["Bœuf", "Thaï", "Salade"],
     ingredients: [
       { item: "Bavette de bœuf", qty: "200 g" }, { item: "Pousses de soja", qty: "125 g" },
@@ -586,7 +586,7 @@ const dishes = [
     name: "Gratin de ravioles aux poireaux",
     subtitle: "Ravioles • Poireau • Crème fraîche",
     time: "40 min", servings: 2, difficulty: "Très facile", calories: "520 kcal",
-    image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=600&q=80",
+    image: "/images/gratin-ravioles-poireau.jpg",
     tags: ["Gratiné", "Français", "Réconfortant"],
     ingredients: [
       { item: "Ravioles", qty: "240 g" },
@@ -608,7 +608,7 @@ const dishes = [
     name: "Soupe Tom Kha Kay",
     subtitle: "Lait de coco • Citronnelle • Champignons",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "480 kcal",
-    image: "https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80",
+    image: "/images/soupe-tom-kha.jpg",
     tags: ["Poulet", "Thaï", "Soupe"],
     ingredients: [
       { item: "Blancs de poulet fermier", qty: "230 g" },
@@ -635,7 +635,7 @@ const dishes = [
     name: "Salade quinoa, grenade, feta & menthe",
     subtitle: "Boulgour • Grenade • Vinaigrette xérès",
     time: "25 min", servings: 2, difficulty: "Facile", calories: "510 kcal",
-    image: "https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&q=80",
+    image: "/images/salade-quinoa-grenade-feta.jpg",
     tags: ["Végétarien", "Frais", "Céréales"],
     ingredients: [
       { item: "Quinoa blond", qty: "100 g" }, { item: "Boulgour", qty: "85 g" },
@@ -656,7 +656,7 @@ const dishes = [
     name: "Tarte thon tomates cerises",
     subtitle: "Pâte feuilletée • Crème • Herbes de Provence",
     time: "50 min", servings: 2, difficulty: "Très facile", calories: "465 kcal",
-    image: "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=600&q=80",
+    image: "/images/tarte-thon-tomate.jpg",
     tags: ["Tarte", "Thon", "Léger"],
     ingredients: [
       { item: "Pâte feuilletée ou brisée", qty: "½ rouleau" },
@@ -681,7 +681,7 @@ const dishes = [
     name: "Ramen express aux sardines",
     subtitle: "Bouillon miso • Nouilles japonaises • Œuf mollet",
     time: "50 min", servings: 2, difficulty: "Moyen", calories: "625 kcal",
-    image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80",
+    image: "/images/ramen-sardines.jpg",
     tags: ["Soupe", "Japonais", "Poisson"],
     ingredients: [
       { item: "Sardines à l'huile en boîte", qty: "2 boîtes" },
@@ -711,7 +711,7 @@ const dishes = [
     name: "Tarte tatin aubergines & fromage frais",
     subtitle: "Pâte feuilletée • Feta • Tomates séchées",
     time: "40 min", servings: 4, difficulty: "Facile", calories: "470 kcal",
-    image: "https://images.unsplash.com/photo-1511690656952-34342bb7c2f2?w=600&q=80",
+    image: "/images/tarte-tatin-aubergine-pesto-rosso.jpg",
     tags: ["Tarte", "Végétarien", "Estivale"],
     ingredients: [
       { item: "Aubergines", qty: "3 pièces" },
@@ -738,7 +738,7 @@ const dishes = [
     name: "Pâtes à la ricotta et petits pois",
     subtitle: "Pâtes complètes • Citron • Parmesan",
     time: "30 min", servings: 2, difficulty: "Très facile", calories: "530 kcal",
-    image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&q=80",
+    image: "/images/pates-ricotta-petitpois.jpg",
     tags: ["Pâtes", "Végétarien", "Léger"],
     ingredients: [
       { item: "Ricotta", qty: "250 g" },
@@ -762,7 +762,7 @@ const dishes = [
     name: "Poulet à la crème et épinards",
     subtitle: "Crème de soja • Champignons • Beaufort",
     time: "45 min", servings: 2, difficulty: "Facile", calories: "470 kcal",
-    image: "https://images.unsplash.com/photo-1604908177453-7462950a6a3b?w=600&q=80",
+    image: "/images/poulet-epinard-creme.jpg",
     tags: ["Poulet", "Crémeux", "Léger"],
     ingredients: [
       { item: "Filets de poulet", qty: "300 g" },
@@ -786,7 +786,7 @@ const dishes = [
     name: "Poulet aux légumes sauce caramélisée",
     subtitle: "Hauts de cuisse • Chou-fleur • Sauce Yakitori",
     time: "80 min", servings: 2, difficulty: "Facile", calories: "470 kcal",
-    image: "/images/Poulet-legumes-sauce-caramelisee.png",
+    image: "/images/Poulet-legumes-sauce-caramelisee.jpg",
     tags: ["Poulet", "Four", "Réconfortant"],
     ingredients: [
       { item: "Hauts de cuisse de poulet", qty: "500 g" },
